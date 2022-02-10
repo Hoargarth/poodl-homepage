@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello IndexController!{% endblock %}
+{% block og_title %}{{ openGraphData.title }}{% endblock %}
+{% block og_description %}{{ openGraphData.description }}{% endblock %}
+{% block og_image %}{{ openGraphData.image }}{% endblock %}
+{% block og_type %}{{ openGraphData.type }}{% endblock %}
+
+{% block body %}
+<div id="app">
+    <router-view></router-view>
+</div>
+{% endblock %}
