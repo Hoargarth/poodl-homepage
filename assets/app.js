@@ -1,22 +1,21 @@
+// styles
+import './styles/app.scss';
+
+// vue
 import Vue from 'vue';
 import VueRouter from 'vue-router';
+import Vuex from 'vuex';
+import router from './vue/router/router.js';
+import App from "./vue/app.vue";
+import store from "./vue/store/store";
 
-import Home from './vue/components/Home.vue';
-import Games from './vue/components/Games.vue';
+// adds Router and Store as plugins
+Vue.use(VueRouter);
+Vue.use(Vuex);
 
-const routes = [
-    { path: '/', component: Home, name: 'home' },
-    { path: '/games', component: Games, name: 'games' },
-]
-
-const router = new VueRouter({
-    mode: 'history',
-    base: '/',
-    routes,
-})
-
-Vue.use(VueRouter)
-
+// Setup the Vue instance
 new Vue({
-    router,
-}).$mount('#app')
+  router,
+  store,
+  render: h => h(App)
+}).$mount("#app");
