@@ -1,6 +1,10 @@
 <template>
   <div id="app">
-    <router-view /> 
+    <div class="background-wall"></div>
+    <div class="navigation-container"></div>
+    <div class="view-container">
+      <router-view /> 
+    </div>
   </div>
 </template>
 

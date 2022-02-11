@@ -9,8 +9,11 @@
 // vendors
 
 // base
+@import './base/normalize';
 
 // layout
+@import './layout/base';
+@import './layout/navigation';
 
 // components
 

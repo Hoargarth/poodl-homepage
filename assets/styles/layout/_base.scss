@@ -1,0 +1,25 @@
+body {
+    background-color: $dark-navy;
+    min-height: 100vh;
+}
+
+.background-wall {
+    position: fixed;
+    top: -100px;
+    left: 0;
+    height: 120vh;
+    width: 120vw;
+    background-image: url('../../images/background.png');
+    animation: background-move 60s linear 0s infinite normal forwards;
+    transform: rotate(10deg);
+}
+
+@keyframes background-move {
+    0% {
+      background-position-x: 0px;
+    }
+  
+    100% {
+        background-position-x: $background-image-width;
+    }
+  }
