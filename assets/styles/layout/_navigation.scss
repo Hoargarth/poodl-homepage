@@ -4,16 +4,83 @@
     height: 100%;
     position: fixed;
     top: 0;
-    left: 0;
+    left: 6px;
+    z-index: 10;
 
+    &:before,
     &:after {
         display: block;
         width: 3px;
         height: 100%;
         background-color: $dark-navy;
-        margin-left: 2px;
-        position: relative;
-        left: 100%;
         content: '';
+        position: absolute;
+        top: 0;
+    }
+
+    &:before {
+        left: -6px;
+    }
+
+    &:after {
+        left: calc(100% + 3px);
+    }
+}
+
+.navigation-inner {
+    display: flex;
+    flex-direction: column;
+    padding: $base-padding 0;
+    justify-content: center;
+    align-items: center;
+
+    .logo {
+        max-width: 130px;
+    }
+}
+
+.nav-wrapper {
+    color: $gray-medium;
+    font-weight: 500;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    strong {
+        font-weight: 800;
+    }
+
+    sup {
+        font-size: 0.8rem;
+        top: -10px;
+    }
+
+    .navigation-button {
+        width: 100%;
+        padding: 0 $base-padding;
+        position: relative;
+        cursor: pointer;
+
+        &:first-child {
+            color: $white;
+        }
+
+        &:before,
+        &:after {
+            content: '';
+            height: 100%;
+            position: absolute;
+            width: 3px;
+            background-color: $orange;
+        }
+
+        &:before {
+            right: 100%;
+        }
+
+        &:after {
+            left: 100%;
+        }
     }
 }

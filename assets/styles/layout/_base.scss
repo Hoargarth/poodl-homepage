@@ -1,17 +1,29 @@
+html {
+    /* 1rem = 10px */
+    font-size: 62.5%;
+  }
+
 body {
     background-color: $dark-navy;
     min-height: 100vh;
+    font-family: $font-family-primary;
+    color: $gray;
+    font-size: $font-size-base;
 }
 
 .background-wall {
     position: fixed;
     top: -100px;
-    left: 0;
+    left: -100px;
     height: 120vh;
     width: 120vw;
     background-image: url('../../images/background.png');
     animation: background-move 60s linear 0s infinite normal forwards;
     transform: rotate(10deg);
+}
+
+.view-container {
+    position: relative;
 }
 
 @keyframes background-move {

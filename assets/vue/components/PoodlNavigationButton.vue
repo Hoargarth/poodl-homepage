@@ -1,10 +1,12 @@
 <template>
-    <div>Some test</div>
+    <div class="navigation-button">
+        <slot/>
+    </div>
 </template>
 
 <script>
     export default {
-        name: 'Home',
+        name: 'PoodlNavigationButton',
         props: {},
         data: () => ({
         }),

@@ -1,3 +1,8 @@
+// font
+$font-family-primary: 'Inter', sans-serif;
+$font-size-base: 2rem;
+$font-size-nav: 2rem;
+
 // colors
 $orange: #f17742;
 $white: #ffffff;
@@ -15,3 +20,6 @@ $section-black: #000000;
 
 // sizes
 $background-image-width: -800px; // needed for a looped background animation, change it if image size changes
+
+// spacings
+$base-padding: 30px;
