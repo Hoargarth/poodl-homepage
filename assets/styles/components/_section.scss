@@ -1,0 +1,7 @@
+section.section {
+    padding:
+        $section-top-bottom-padding
+        $section-left-right-padding
+        $section-top-bottom-padding
+        calc($nav-width + $section-left-right-padding);
+}

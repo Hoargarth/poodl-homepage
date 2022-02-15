@@ -1,0 +1,17 @@
+h1,
+h2,
+h3 {
+    color: $white;
+    font-weight: 700;
+    margin: 0;
+}
+
+h1,
+h2 {
+    font-size: 5.2rem;
+}
+
+.highlight {
+    color: $orange;
+    text-transform: uppercase;
+}

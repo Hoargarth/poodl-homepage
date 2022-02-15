@@ -10,12 +10,15 @@
 
 // base
 @import './base/normalize';
+@import './base/typography';
 
 // layout
 @import './layout/base';
 @import './layout/navigation';
 
 // components
+@import './components/section';
+@import './components/heading';
 
 // pages
 
