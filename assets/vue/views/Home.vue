@@ -67,12 +67,12 @@ import PoodlHeading from '../components/PoodlHeading.vue'
         props: {},
         data: () => ({
             sectionColors: {
-                hero: 'rgba(0,0,0,.6)',
-                secure: 'rgba(0, 18, 7, .6)',
-                tokenomics: 'rgba(12, 29, 0, .6)',
-                roadmap: 'rgba(23, 0, 19, .6)',
-                nft: 'rgba(25, 5, 0, .6)',
-                community: 'rgba(0, 20, 12, .6)',
+                hero: 'rgba(0,0,0,.5)',
+                secure: 'rgba(0, 18, 7, .5)',
+                tokenomics: 'rgba(12, 29, 0, .5)',
+                roadmap: 'rgba(23, 0, 19, .5)',
+                nft: 'rgba(25, 5, 0, .5)',
+                community: 'rgba(0, 20, 12, .5)',
             },
         }),
     }
