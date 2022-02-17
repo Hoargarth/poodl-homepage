@@ -26,12 +26,10 @@ body {
     position: relative;
 }
 
-@keyframes background-move {
-    0% {
-      background-position-x: 0px;
-    }
-  
-    100% {
-        background-position-x: $background-image-width;
-    }
+.buttons-wrapper-row {
+  display: flex;
+
+  > div {
+    margin-right: 50px;
   }
+}

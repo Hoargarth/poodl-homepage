@@ -1,0 +1,83 @@
+.base-button {
+    a,
+    button {
+        display: block;
+        background-color: transparent;
+        border: 1px solid rgba( $orange, .4);
+        color: $orange;
+        font-weight: 400;
+        min-width: 200px;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 12px;
+        position: relative;
+
+        &:before,
+        &:after {
+            content: "";
+            position: absolute;
+            width: 45px;
+            height: 1px;
+            background-color: $orange;
+            transition: all 0.25s ease;
+        }
+
+        &:before {
+            top: 0;
+            left: 10%;
+            transform: translateY(-1px);
+          }
+
+        &:after {
+            content: "";
+            bottom: 0;
+            right: 10%;
+            transform: translateY(1px);
+        }
+
+        &:hover {
+            box-shadow: 1px 1px 8px rgba( $orange, 0.3);
+            text-shadow: 0 0 8px rgba( $orange, 0.4);
+
+            &:before {
+              left: 0;
+              width: 20px;
+            }
+            &:after {
+              right: 0;
+              width: 20px;
+            }
+            .button-line:before {
+              bottom: 0;
+            }
+            .button-line:after {
+              top: 0;
+            }
+        }
+
+        .button-line {
+            &:before,
+            &:after {
+                content: "";
+                position: absolute;
+                width: 1px;
+                height: 20px;
+                background: $orange;
+                transition: all 0.25s ease;
+            }
+
+            &:before {
+                bottom: 30%;
+                right: 0;
+                transform: translateX(1px);
+            }
+
+            &:after {
+                top: 30%;
+                left: 0;
+                transform: translateX(-1px);
+            }
+        }
+    }
+}

@@ -11,6 +11,7 @@
 // base
 @import './base/normalize';
 @import './base/typography';
+@import './base/keyframes';
 
 // layout
 @import './layout/base';
@@ -19,7 +20,10 @@
 // components
 @import './components/section';
 @import './components/heading';
+@import './components/textblock';
+@import './components/button';
 
 // pages
+@import './pages/home';
 
 // themes

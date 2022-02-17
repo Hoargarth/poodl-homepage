@@ -1,0 +1,9 @@
+@keyframes background-move {
+    0% {
+    background-position-x: 0px;
+    }
+
+    100% {
+        background-position-x: $background-image-width;
+    }
+}

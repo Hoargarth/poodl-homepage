@@ -1,6 +1,6 @@
 <template>
     <div class="heading">
-        <component :is="headingLevel"><slot name="heading"></slot></component>
+        <component :is="computedHeadingLevel"><slot name="heading"></slot></component>
         <div class="subheading"><slot name="subheading"></slot></div>
     </div>
 </template>

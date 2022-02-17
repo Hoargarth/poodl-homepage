@@ -15,6 +15,7 @@ import PoodlNavigationButton from './vue/components/PoodlNavigationButton';
 import PoodlSection from './vue/components/PoodlSection';
 import PoodlHeading from './vue/components/PoodlHeading';
 import PoodlTextblock from './vue/components/PoodlTextblock';
+import PoodlButton from './vue/components/PoodlButton';
 
 // adds Router and Store as plugins
 Vue.use(VueRouter);
@@ -27,6 +28,7 @@ Vue.component('poodl-navigation-button', PoodlNavigationButton);
 Vue.component('poodl-section', PoodlSection);
 Vue.component('poodl-heading', PoodlHeading);
 Vue.component('poodl-textblock', PoodlTextblock);
+Vue.component('poodl-button', PoodlButton);
 
 // Setup the Vue instance
 new Vue({
