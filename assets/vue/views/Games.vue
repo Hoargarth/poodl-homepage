@@ -1,5 +1,8 @@
 <template>
-    <div>{{ message }}</div>
+    <div>
+                            <poodl-image src="/gifs/metalCoinSpin.gif" alt="$POODL Token Spinning Coin" />
+
+    </div>
 </template>
 
 <script>

@@ -3,13 +3,20 @@
 
         <!-- Hero Section -->
         <poodl-section :section-color="sectionColors.hero">
-            <poodl-heading heading-level="h1">
-                <template v-slot:heading><span class="highlight">$POODL</span><br/>The Future of DeFi</template>
-                <template v-slot:subheading>over 30,000 DEX holders</template>
-            </poodl-heading>
-            <poodl-textblock>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-            </poodl-textblock>
+            <poodl-row>
+                <poodl-column :mobile="12" :tablet="8" :desktop="6">
+                    <poodl-heading heading-level="h1">
+                        <template v-slot:heading><span class="highlight">$POODL</span><br/>The Future of DeFi</template>
+                        <template v-slot:subheading>over 30,000 DEX holders</template>
+                    </poodl-heading>
+                    <poodl-textblock>
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                    </poodl-textblock>
+                </poodl-column>
+                <poodl-column :mobile="12" :tablet="4" :desktop="6" hAlign="center" vAlign="center">
+                    <poodl-image src="/gifs/metalCoinSpin.gif" alt="$POODL Token Spinning Coin" maxWidth="350px" />
+                </poodl-column>
+            </poodl-row>
             <div class="buttons-wrapper-row">
                 <poodl-button url="/buy">Buy $POODL</poodl-button>
                 <poodl-button url="/whitepaper">Whitepaper</poodl-button>

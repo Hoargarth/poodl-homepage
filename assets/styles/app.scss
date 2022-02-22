@@ -15,6 +15,7 @@
 
 // layout
 @import './layout/base';
+@import './layout/layout';
 @import './layout/navigation';
 
 // components
@@ -22,8 +23,8 @@
 @import './components/heading';
 @import './components/textblock';
 @import './components/button';
+@import './components/image';
 
 // pages
-@import './pages/home';
 
 // themes

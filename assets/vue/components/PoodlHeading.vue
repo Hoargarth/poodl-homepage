@@ -1,6 +1,6 @@
 <template>
     <div class="heading">
-        <component :is="computedHeadingLevel"><slot name="heading"></slot></component>
+        <component :is="headingLevel"><slot name="heading"></slot></component>
         <div class="subheading"><slot name="subheading"></slot></div>
     </div>
 </template>
@@ -9,16 +9,12 @@
     export default {
         name: 'PoodlHeading',
         props: {
-            headingLevel: String,
+            headingLevel: {
+                default: 'h2',
+                type: String,
+            },
         },
         computed: {
-            computedHeadingLevel: function() {
-                if (this.headingLevel) {
-                    return this.headingLevel;
-                }
-
-                return 'h2';
-            }
         },
         data: () => ({
         }),

@@ -1,0 +1,28 @@
+.poodl-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.poodl-column {
+    display: flex;
+    flex-direction: column;
+}
+
+@for $i from 1 to 12 {
+    .column-mobile-#{$i} {
+        width: calc(100% / 12 * $i);
+    }
+}
+
+@for $i from 1 to 12 {
+    .column-tablet-#{$i} {
+        width: calc(100% / 12 * $i);
+    }
+}
+
+@for $i from 1 to 12 {
+    .column-desktop-#{$i} {
+        width: calc(100% / 12 * $i);
+    }
+}
