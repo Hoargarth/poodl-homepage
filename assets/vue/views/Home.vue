@@ -25,10 +25,44 @@
 
         <!-- Secure Section -->
         <poodl-section :section-color="sectionColors.secure">
-            <poodl-heading>
-                <template v-slot:heading>We keep Your<br/>Investments <span class="highlight">SECURE</span></template>
-                <template v-slot:subheading>because we love our community</template>
-            </poodl-heading>
+            <poodl-row>
+                <poodl-column :mobile="12" :tablet="8" :desktop="6">
+                    <poodl-heading>
+                        <template v-slot:heading>We keep Your<br/>Investments <span class="highlight">SECURE</span></template>
+                        <template v-slot:subheading>because we love our community</template>
+                    </poodl-heading>
+                </poodl-column>
+            </poodl-row>
+
+            <!-- USPs (locked, verified, audited) -->
+            <poodl-usp>
+                <poodl-column :mobile="12" :tablet="4" :desktop="3" hAlign="center" textAlign="center">
+                    <poodl-image src="/icons/locked.png" alt="Locked Liquidity" maxWidth="100px" />
+                    <poodl-heading heading-level="h3">
+                        <template v-slot:heading>5 Years Locked Liquidity</template>
+                    </poodl-heading>
+                    <poodl-textblock>
+                        Our POODL/wBNB pool is locked at UniCrypt, this means during the next five years you will always be able to buy and sell your POODL
+                    </poodl-textblock>
+                </poodl-column>
+                <poodl-column :mobile="12" :tablet="4" :desktop="3" hAlign="center" textAlign="center">
+                    <poodl-image src="/icons/verified.png" alt="Verified Social Media" maxWidth="100px" />
+                    <poodl-heading heading-level="h3">
+                        <template v-slot:heading>Verified<br/>Channels</template>
+                    </poodl-heading>
+                    <poodl-textblock>
+                        In order to keep you save from fake groups, we are applying to be verified where possible.<br />Currently we are verified at: Twitter, Telegram, Opensea and CoinMarketCap
+                    </poodl-textblock>
+                </poodl-column>
+                <poodl-column :mobile="12" :tablet="4" :desktop="3" hAlign="center" textAlign="center">
+                    <poodl-image src="/icons/audited.png" alt="Security Audit" maxWidth="100px" />
+                    <poodl-heading heading-level="h3">
+                        <template v-slot:heading>Passed Security<br />Audit</template>
+                    </poodl-heading>
+                    <poodl-textblock>
+                        The POODL smart contract has been audited and approved by Solidity Finance. The contract is also running since over a year without any bugs or glitches.                    </poodl-textblock>
+                </poodl-column>
+            </poodl-usp>
         </poodl-section>
 
         <!-- Tokenomics Section -->
@@ -62,14 +96,11 @@
                 <template v-slot:subheading>we call the: NFT 2.0</template>
             </poodl-heading>
         </poodl-section>
-
     </div>
 </template>
 
 <script>
-import PoodlHeading from '../components/PoodlHeading.vue'
     export default {
-  components: { PoodlHeading },
         name: 'Home',
         props: {},
         data: () => ({

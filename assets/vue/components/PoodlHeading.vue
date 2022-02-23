@@ -1,7 +1,7 @@
 <template>
     <div class="heading">
         <component :is="headingLevel"><slot name="heading"></slot></component>
-        <div class="subheading"><slot name="subheading"></slot></div>
+        <div v-if="hasSubHeading" class="subheading"><slot name="subheading"></slot></div>
     </div>
 </template>
 
@@ -15,6 +15,9 @@
             },
         },
         computed: {
+            hasSubHeading () {
+                return !!this.$slots['subheading'];
+            }
         },
         data: () => ({
         }),

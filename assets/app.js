@@ -19,6 +19,7 @@ import PoodlHeading from './vue/components/PoodlHeading';
 import PoodlTextblock from './vue/components/PoodlTextblock';
 import PoodlButton from './vue/components/PoodlButton';
 import PoodlImage from './vue/components/PoodlImage';
+import PoodlUSP from './vue/components/PoodlUSP';
 
 // adds Router and Store as plugins
 Vue.use(VueRouter);
@@ -35,6 +36,7 @@ Vue.component('poodl-heading', PoodlHeading);
 Vue.component('poodl-textblock', PoodlTextblock);
 Vue.component('poodl-button', PoodlButton);
 Vue.component('poodl-image', PoodlImage);
+Vue.component('poodl-usp', PoodlUSP);
 
 // Setup the Vue instance
 new Vue({

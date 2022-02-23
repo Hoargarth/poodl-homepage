@@ -1,5 +1,5 @@
 <template>
-    <div class="poodl-column" :class="widthClasses" :style="{justifyContent: hAlign, alignItems: vAlign}">
+    <div class="poodl-column" :class="widthClasses" :style="{justifyContent: vAlign, alignItems: hAlign, textAlign: textAlign}">
         <slot />
     </div>
 </template>
@@ -26,6 +26,10 @@
             },
             hAlign: {
                 default: 'flex-start',
+                type: String,
+            },
+            textAlign: {
+                default: 'left',
                 type: String,
             }
         },

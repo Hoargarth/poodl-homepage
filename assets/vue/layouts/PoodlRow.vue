@@ -1,5 +1,5 @@
 <template>
-    <div class="poodl-row">
+    <div class="poodl-row" :style="{justifyContent: vAlign}">
         <slot />
     </div>
 </template>
@@ -7,7 +7,12 @@
 <script>
     export default {
         name: 'PoodlRow',
-        props: {},
+        props: {
+            vAlign: {
+                default: 'flex-start',
+                type: String,
+            },
+        },
         data: () => ({
         }),
     }
