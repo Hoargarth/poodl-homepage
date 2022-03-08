@@ -107,10 +107,16 @@
 
         <!-- Roadmap Section -->
         <poodl-section :section-color="sectionColors.roadmap">
-            <poodl-heading>
-                <template v-slot:heading>Ambitious <span class="highlight">ROADMAP</span><br/>to Shape the Year 2022</template>
-                <template v-slot:subheading>innovation is key of our success</template>
-            </poodl-heading>
+            <poodl-row>
+                <poodl-column :mobile="12" :tablet="8" :desktop="6">
+                    <poodl-heading>
+                        <template v-slot:heading>Ambitious <span class="highlight">ROADMAP</span><br/>to Shape the Year 2022</template>
+                        <template v-slot:subheading>innovation is key of our success</template>
+                    </poodl-heading>
+                </poodl-column>
+            </poodl-row>
+
+            <poodl-roadmap />
         </poodl-section>
 
         <!-- NFTs Section -->
