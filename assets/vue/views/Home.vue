@@ -67,16 +67,48 @@
 
         <!-- Tokenomics Section -->
         <poodl-section :section-color="sectionColors.tokenomics">
-            <poodl-heading>
-                <template v-slot:heading>Get Passive Income<br/>through our <span class="highlight">TOKENOMICS</span></template>
-                <template v-slot:subheading>simply by HODLing $POODL</template>
-            </poodl-heading>
+            <poodl-row>
+                <poodl-column :mobile="12" :tablet="8" :desktop="6">
+                    <poodl-heading>
+                        <template v-slot:heading>Get Passive Income<br/>through our <span class="highlight">TOKENOMICS</span></template>
+                        <template v-slot:subheading>simply by HODLing $POODL</template>
+                    </poodl-heading>
+                </poodl-column>
+            </poodl-row>
+
+            <poodl-row vAlign="center">
+                <poodl-column :mobile="12" :tablet="4" :desktop="4">
+                    <div class="poodl-tokenomic"><poodl-image src="/icons/tokenomic.png" alt="Tokenomics Icon" maxWidth="35px" /> 1% Redistribution</div>
+                    <div class="poodl-tokenomic"><poodl-image src="/icons/tokenomic.png" alt="Tokenomics Icon" maxWidth="35px" /> 1% Burned</div>
+                    <div class="poodl-tokenomic"><poodl-image src="/icons/tokenomic.png" alt="Tokenomics Icon" maxWidth="35px" /> 0.33% to Charity</div>
+                    <div class="poodl-tokenomic"><poodl-image src="/icons/tokenomic.png" alt="Tokenomics Icon" maxWidth="35px" /> 0.33% to Liquidity</div>
+                    <div class="poodl-tokenomic"><poodl-image src="/icons/tokenomic.png" alt="Tokenomics Icon" maxWidth="35px" /> 0.33% to Marketing</div>
+                </poodl-column>
+                <poodl-column :mobile="12" :tablet="8" :desktop="6">
+                    <div class="poodl-twoline-info">
+                        <span class="highlight bold">Contract</span><br/>
+                        <strong>0x4a68c250486a116dc8d6a0c5b0677de07cc09c5d</strong>
+                    </div>
+                    <div class="poodl-twoline-info">
+                        <span class="highlight bold">Total Supply</span><br/>
+                        <strong>100,000,000,000,000</strong>
+                    </div>
+                    <div class="poodl-twoline-info">
+                        <span class="highlight bold">Circulating Supply</span><br/>
+                        <strong>80,000,000,000,000</strong>
+                    </div>
+                    <div class="poodl-twoline-info">
+                        <span class="highlight bold">🔥Burned🔥</span><br/>
+                        <strong>20,000,000,000,000</strong>
+                    </div>
+                </poodl-column>
+            </poodl-row>
         </poodl-section>
 
         <!-- Roadmap Section -->
         <poodl-section :section-color="sectionColors.roadmap">
             <poodl-heading>
-                <template v-slot:heading>Ambitious <span class="highlight">TOKENOMICS</span><br/>to Shape the Year 2022</template>
+                <template v-slot:heading>Ambitious <span class="highlight">ROADMAP</span><br/>to Shape the Year 2022</template>
                 <template v-slot:subheading>innovation is key of our success</template>
             </poodl-heading>
         </poodl-section>
@@ -100,7 +132,10 @@
 </template>
 
 <script>
+import PoodlImage from '../components/PoodlImage.vue'
+import PoodlRow from '../layouts/PoodlRow.vue'
     export default {
+  components: { PoodlRow, PoodlImage },
         name: 'Home',
         props: {},
         data: () => ({
