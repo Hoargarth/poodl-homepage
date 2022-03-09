@@ -10,7 +10,7 @@
                         <template v-slot:subheading>over 30,000 DEX holders</template>
                     </poodl-heading>
                     <poodl-textblock>
-                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                        POODL is a BEP-20 deflationary, self-LP generating token that is powered by the work and idea of its community.<br /><br />Together with our 3D NFTs and Augmented Reality APP we are taking the whole NFT world one step further.<br />Calling it: NFT 2.0
                     </poodl-textblock>
                 </poodl-column>
                 <poodl-column :mobile="12" :tablet="4" :desktop="6" hAlign="center" vAlign="center">
@@ -121,18 +121,42 @@
 
         <!-- NFTs Section -->
         <poodl-section :section-color="sectionColors.nft">
-            <poodl-heading>
-                <template v-slot:heading><span class="highlight">3D NFTs</span> with<br/>an Actual Usecase</template>
-                <template v-slot:subheading>we call the: NFT 2.0</template>
-            </poodl-heading>
+            <poodl-row>
+                <poodl-column :mobile="12" :tablet="8" :desktop="6">
+                    <poodl-heading heading-level="h1">
+                        <template v-slot:heading><span class="highlight">3D NFTs</span> with<br/>an Actual Usecase</template>
+                        <template v-slot:subheading>we call the: NFT 2.0</template>
+                    </poodl-heading>
+                    <poodl-textblock>
+                        This collection of unique NFTs are in full 3D and are fully compatible with the POODL augmented reality app. Use your NFTs in the real world. These NFTs will also be used in a revolutionary model in gaming where YOU earn from others using your models in a series of games over the coming months and years from POODL while still retaining ownership!<br /><br />
+                        Each model is unique and accessorized. Be one of the first to own NFTs that will help usher in NFT 2.0 - usable, pinnable, scalable, movable, placeable and viewable in the real world and soon Playable and providing a passive income stream for owners.
+                    </poodl-textblock>
+                </poodl-column>
+            </poodl-row>
+            <div class="buttons-wrapper-row center">
+                <poodl-button url="/nfts">About POODL NFTs</poodl-button>
+                <poodl-button url="https://opensea.io/collection/poodl-ar-pets">See full Collection</poodl-button>
+            </div>
         </poodl-section>
 
         <!-- Community Section -->
         <poodl-section :section-color="sectionColors.community">
-            <poodl-heading>
+            <poodl-row>
+                <poodl-column :mobile="12" :tablet="8" :desktop="6">
+                    <poodl-heading heading-level="h1">
                 <template v-slot:heading>Become a Part<br/>of the <span class="highlight">COMMUNITY</span></template>
                 <template v-slot:subheading>we call the: NFT 2.0</template>
-            </poodl-heading>
+                    </poodl-heading>
+                    <poodl-textblock>
+                        $POODL is a token that is driven and supported solely by its community. With over 30,000 holders, the token has a very even distribution that incentivizes holding and collaborating to make $POODL successful
+                    </poodl-textblock>
+                </poodl-column>
+            </poodl-row>
+            <div class="buttons-wrapper-row">
+                <poodl-button url="https://t.me/POODL">Telegram</poodl-button>
+                <poodl-button url="https://www.reddit.com/r/PoodlTokenOfficial/">Reddit</poodl-button>
+                <poodl-button url="https://discord.gg/WJ7kWJJ2EJ">Discord</poodl-button>
+            </div>
         </poodl-section>
     </div>
 </template>
