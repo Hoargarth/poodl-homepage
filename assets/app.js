@@ -1,4 +1,5 @@
 // styles
+import 'swiper/css/bundle';
 import './styles/app.scss';
 
 // vue
@@ -21,6 +22,13 @@ import PoodlButton from './vue/components/PoodlButton';
 import PoodlImage from './vue/components/PoodlImage';
 import PoodlUSP from './vue/components/PoodlUSP';
 import PoodlRoadmap from './vue/components/PoodlRoadmap';
+import PoodlCarousel from './vue/components/PoodlCarousel';
+
+// external components
+import Swiper from 'swiper/bundle'; // see swiperjs.com/get-started
+
+// add global variables to vue
+Vue.prototype.$swiper = Swiper;
 
 // adds Router and Store as plugins
 Vue.use(VueRouter);
@@ -39,6 +47,7 @@ Vue.component('poodl-button', PoodlButton);
 Vue.component('poodl-image', PoodlImage);
 Vue.component('poodl-usp', PoodlUSP);
 Vue.component('poodl-roadmap', PoodlRoadmap);
+Vue.component('poodl-carousel', PoodlCarousel);
 
 // Setup the Vue instance
 new Vue({

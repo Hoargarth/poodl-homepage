@@ -133,6 +133,19 @@
                     </poodl-textblock>
                 </poodl-column>
             </poodl-row>
+            
+            <poodl-carousel>
+                <div class="swiper-slide nft-slide">1</div>
+                <div class="swiper-slide nft-slide">2</div>
+                <div class="swiper-slide nft-slide">3</div>
+                <div class="swiper-slide nft-slide">4</div>
+                <div class="swiper-slide nft-slide">5</div>
+                <div class="swiper-slide nft-slide">6</div>
+                <div class="swiper-slide nft-slide">7</div>
+                <div class="swiper-slide nft-slide">8</div>
+                <div class="swiper-slide nft-slide">9</div>
+            </poodl-carousel>
+
             <div class="buttons-wrapper-row center">
                 <poodl-button url="/nfts">About POODL NFTs</poodl-button>
                 <poodl-button url="https://opensea.io/collection/poodl-ar-pets">See full Collection</poodl-button>
@@ -177,6 +190,7 @@ import PoodlRow from '../layouts/PoodlRow.vue'
                 nft: 'rgba(25, 5, 0, .5)',
                 community: 'rgba(0, 20, 12, .5)',
             },
+
         }),
     }
 </script>
