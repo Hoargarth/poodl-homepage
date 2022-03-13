@@ -135,20 +135,38 @@
             </poodl-row>
             
             <poodl-carousel>
-                <div class="swiper-slide nft-slide">1</div>
-                <div class="swiper-slide nft-slide">2</div>
-                <div class="swiper-slide nft-slide">3</div>
-                <div class="swiper-slide nft-slide">4</div>
-                <div class="swiper-slide nft-slide">5</div>
-                <div class="swiper-slide nft-slide">6</div>
-                <div class="swiper-slide nft-slide">7</div>
-                <div class="swiper-slide nft-slide">8</div>
-                <div class="swiper-slide nft-slide">9</div>
+                <div class="swiper-slide nft-slide">
+                    <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/82043422881212392986639246154219618395802836846171245588217258050681279873025"><poodl-image src="/nftpreview/10-thumbnail.png" alt="POODL NFT #10" maxWidth="100%" /></a>
+                </div>
+                <div class="swiper-slide nft-slide">
+                    <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/82043422881212392986639246154219618395802836846171245588217258052880303128577"><poodl-image src="/nftpreview/12-thumbnail.png" alt="POODL NFT #12" maxWidth="100%" /></a>
+                </div>
+                <div class="swiper-slide nft-slide">
+                    <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/82043422881212392986639246154219618395802836846171245588217258061676396150785"><poodl-image src="/nftpreview/20-thumbnail.png" alt="POODL NFT #20" maxWidth="100%" /></a>
+                </div>
+                <div class="swiper-slide nft-slide">
+                    <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/82043422881212392986639246154219618395802836846171245588217258050681279873025"><poodl-image src="/nftpreview/10-thumbnail.png" alt="POODL NFT #10" maxWidth="100%" /></a>
+                </div>
+                <div class="swiper-slide nft-slide">
+                    <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/82043422881212392986639246154219618395802836846171245588217258052880303128577"><poodl-image src="/nftpreview/12-thumbnail.png" alt="POODL NFT #12" maxWidth="100%" /></a>
+                </div>
+                <div class="swiper-slide nft-slide">
+                    <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/82043422881212392986639246154219618395802836846171245588217258061676396150785"><poodl-image src="/nftpreview/20-thumbnail.png" alt="POODL NFT #20" maxWidth="100%" /></a>
+                </div>
+                <div class="swiper-slide nft-slide">
+                    <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/82043422881212392986639246154219618395802836846171245588217258050681279873025"><poodl-image src="/nftpreview/10-thumbnail.png" alt="POODL NFT #10" maxWidth="100%" /></a>
+                </div>
+                <div class="swiper-slide nft-slide">
+                    <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/82043422881212392986639246154219618395802836846171245588217258052880303128577"><poodl-image src="/nftpreview/12-thumbnail.png" alt="POODL NFT #12" maxWidth="100%" /></a>
+                </div>
+                <div class="swiper-slide nft-slide">
+                    <a href="https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/82043422881212392986639246154219618395802836846171245588217258061676396150785"><poodl-image src="/nftpreview/20-thumbnail.png" alt="POODL NFT #20" maxWidth="100%" /></a>
+                </div>
             </poodl-carousel>
 
             <div class="buttons-wrapper-row center">
                 <poodl-button url="/nfts">About POODL NFTs</poodl-button>
-                <poodl-button url="https://opensea.io/collection/poodl-ar-pets">See full Collection</poodl-button>
+                <poodl-button url="https://opensea.io/collection/poodl-ar-pets">Full Collection</poodl-button>
             </div>
         </poodl-section>
 

@@ -12,6 +12,7 @@ import store from "./vue/store/store";
 
 // vue components
 import PoodlNavigation from './vue/layouts/PoodlNavigation';
+import PoodlFooter from './vue/layouts/PoodlFooter';
 import PoodlRow from './vue/layouts/PoodlRow';
 import PoodlColumn from './vue/layouts/PoodlColumn';
 import PoodlNavigationButton from './vue/components/PoodlNavigationButton';
@@ -37,6 +38,7 @@ Vue.use(Vuex);
 // add components global so we don't have to
 // import them all the time
 Vue.component('poodl-navigation', PoodlNavigation);
+Vue.component('poodl-footer', PoodlFooter);
 Vue.component('poodl-row', PoodlRow);
 Vue.component('poodl-column', PoodlColumn);
 Vue.component('poodl-navigation-button', PoodlNavigationButton);

@@ -4,6 +4,7 @@
     <div class="background-wall"></div>
     <div class="view-container">
       <router-view /> 
+      <poodl-footer />
     </div>
   </div>
 </template>

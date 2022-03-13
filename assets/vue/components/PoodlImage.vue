@@ -2,7 +2,7 @@
     <img class="poodl-image"
         :src="require('/assets/images' + src)"
         :alt="alt"
-        :style="{maxWidth: maxWidth}"/>
+        :style="{maxWidth: maxWidth, minWidth: minWidth}"/>
 </template>
 
 <script>
@@ -18,6 +18,10 @@
                 type: String,
             },
             maxWidth: {
+                default: 'initial',
+                type: String,
+            },
+            minWidth: {
                 default: 'initial',
                 type: String,
             }

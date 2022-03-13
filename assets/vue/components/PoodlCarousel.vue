@@ -5,17 +5,17 @@
                 <!-- Slides -->
                 <slot />
             </div>
-
-            <!-- If we need pagination -->
-            <div v-if="pagination" class="swiper-pagination"></div>
-
-            <!-- If we need navigation buttons -->
-            <div v-if="navigation" class="swiper-button-prev"></div>
-            <div v-if="navigation" class="swiper-button-next"></div>
-
-            <!-- If we need scrollbar -->
-            <div v-if="scrollbar" class="swiper-scrollbar"></div>
         </div>
+
+        <!-- If we need pagination -->
+        <div v-if="pagination" class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div v-if="navigation" class="swiper-button-prev"></div>
+        <div v-if="navigation" class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <div v-if="scrollbar" class="swiper-scrollbar"></div>
     </div>
 </template>
 
@@ -50,8 +50,10 @@
             let options = {
                 // Optional parameters
                 loop: true,
-                slidesPerView: 1,
+                slidesPerView: 4.5,
                 centeredSlides: true,
+                autoplay: true,
+                spaceBetween: 20,
 
                 // If we need pagination
                 pagination: {
