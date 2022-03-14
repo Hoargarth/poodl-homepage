@@ -1,5 +1,8 @@
 <template>
-    <section class="section" :style="{backgroundColor: sectionColor}">
+    <section
+        :id="sectionAnchor"
+        class="section"
+        :style="{backgroundColor: sectionColor}">
         <slot />
     </section>
 </template>
@@ -9,6 +12,7 @@
         name: 'PoodlSection',
         props: {
             sectionColor: String,
+            sectionAnchor: String,
         },
         data: () => ({
         }),

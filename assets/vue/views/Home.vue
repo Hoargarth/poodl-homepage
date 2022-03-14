@@ -24,7 +24,7 @@
         </poodl-section>
 
         <!-- Secure Section -->
-        <poodl-section :section-color="sectionColors.secure">
+        <poodl-section :section-color="sectionColors.secure" sectionAnchor="secure">
             <poodl-row>
                 <poodl-column :mobile="12" :tablet="8" :desktop="6">
                     <poodl-heading>
@@ -66,7 +66,7 @@
         </poodl-section>
 
         <!-- Tokenomics Section -->
-        <poodl-section :section-color="sectionColors.tokenomics">
+        <poodl-section :section-color="sectionColors.tokenomics" sectionAnchor="tokenomics">
             <poodl-row>
                 <poodl-column :mobile="12" :tablet="8" :desktop="6">
                     <poodl-heading>
@@ -106,7 +106,7 @@
         </poodl-section>
 
         <!-- Roadmap Section -->
-        <poodl-section :section-color="sectionColors.roadmap">
+        <poodl-section :section-color="sectionColors.roadmap" sectionAnchor="roadmap">
             <poodl-row>
                 <poodl-column :mobile="12" :tablet="8" :desktop="6">
                     <poodl-heading>
@@ -120,7 +120,7 @@
         </poodl-section>
 
         <!-- NFTs Section -->
-        <poodl-section :section-color="sectionColors.nft">
+        <poodl-section :section-color="sectionColors.nft" sectionAnchor="nft">
             <poodl-row>
                 <poodl-column :mobile="12" :tablet="8" :desktop="6">
                     <poodl-heading heading-level="h1">
@@ -171,7 +171,7 @@
         </poodl-section>
 
         <!-- Community Section -->
-        <poodl-section :section-color="sectionColors.community">
+        <poodl-section :section-color="sectionColors.community" sectionAnchor="community">
             <poodl-row>
                 <poodl-column :mobile="12" :tablet="8" :desktop="6">
                     <poodl-heading heading-level="h1">

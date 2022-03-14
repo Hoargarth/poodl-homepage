@@ -1,13 +1,18 @@
 <template>
-    <div class="navigation-button">
+    <a class="navigation-button" :href="url">
         <slot/>
-    </div>
+    </a>
 </template>
 
 <script>
     export default {
         name: 'PoodlNavigationButton',
-        props: {},
+        props: {
+            url: {
+                default: '/',
+                type: String,
+            },
+        },
         data: () => ({
         }),
     }
