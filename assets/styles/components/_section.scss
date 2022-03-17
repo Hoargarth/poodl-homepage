@@ -1,7 +1,14 @@
 section.section {
-    padding:
+    padding: 
         $section-top-bottom-padding
-        $section-left-right-padding
-        $section-top-bottom-padding
-        calc($nav-width + $section-left-right-padding);
+        $base-padding
+        $section-top-bottom-padding;
+
+    @media all and (min-width: $breakpoint-md-up) {
+        padding:
+            $section-top-bottom-padding
+            $section-left-right-padding
+            $section-top-bottom-padding
+            calc($nav-width + $section-left-right-padding);
+    }
 }

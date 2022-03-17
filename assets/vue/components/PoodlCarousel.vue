@@ -50,7 +50,7 @@
             let options = {
                 // Optional parameters
                 loop: true,
-                slidesPerView: 4.5,
+                slidesPerView: 1.5,
                 centeredSlides: true,
                 autoplay: true,
                 spaceBetween: 20,
@@ -69,6 +69,16 @@
                 // And if we need scrollbar
                 scrollbar: {
                     el: '.swiper-scrollbar',
+                },
+
+                // breakpoints for everything that's not mobile
+                breakpoints: {
+                    768: {
+                        slidesPerView: 3.5,
+                    },
+                    1200: {
+                        slidesPerView: 4.5,
+                    },
                 },
             }
 

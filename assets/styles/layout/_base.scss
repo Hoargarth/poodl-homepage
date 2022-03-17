@@ -26,15 +26,3 @@ body {
 .view-container {
     position: relative;
 }
-
-.buttons-wrapper-row {
-  display: flex;
-
-  > div {
-    margin-right: 50px;
-  }
-
-  &.center {
-    justify-content: center;
-  }
-}

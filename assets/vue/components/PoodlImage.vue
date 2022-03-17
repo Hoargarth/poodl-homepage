@@ -2,7 +2,7 @@
     <img class="poodl-image"
         :src="require('/assets/images' + src)"
         :alt="alt"
-        :style="{maxWidth: maxWidth, minWidth: minWidth}"/>
+        :style="{maxWidth: computedMaxWidth, minWidth: minWidth}"/>
 </template>
 
 <script>
@@ -24,9 +24,22 @@
             minWidth: {
                 default: 'initial',
                 type: String,
+            },
+            mobileMaxWidth: {
+                type: String,
             }
         },
+        computed: {
+            computedMaxWidth () {
+                const mediaQuery = window.matchMedia('(max-width: 767px)');
+                
+                if (mediaQuery.matches && this.mobileMaxWidth) {
+                    return this.mobileMaxWidth;
+                }
 
+                return this.maxWidth;
+            }
+        },
         data: () => ({
         }),
     }

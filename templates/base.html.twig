@@ -5,11 +5,14 @@
         <title>{% block title %}Welcome!{% endblock %}</title>
         <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text></svg>">
         
+        <!-- Open Graph data for page preview -->
         <meta property="og:title" content="{% block og_title %}Open Graph Tags – praktische Tipps für Deine Website{% endblock %}"/> 
         <meta property="og:description" content="{% block og_description %}Open Graph description{% endblock %}"/>
         <meta property="og:image" content="{% block og_image %}https://ogp.me/logo.png{% endblock %}"/>
         <meta property="og:type" content="{% block og_type %}website{% endblock %}"/>
 
+        <!-- Improves responsive -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">

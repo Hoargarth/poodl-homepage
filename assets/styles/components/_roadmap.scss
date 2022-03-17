@@ -1,17 +1,35 @@
 .poodl-roadmap {
   width: 100%;
-  min-height: 600px;
-  background-image: url('/assets/images/graphics/roadmap.svg');
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  background-size: 80%;
   position: relative;
 
+  strong {
+    &:not(:first-child) {
+      margin-top: 50px;
+      display: block;
+    }
+
+    @media all and (min-width: $breakpoint-lg-up) {
+      display: none;
+    }
+  }
+
+  @media all and (min-width: $breakpoint-lg-up) {
+    min-height: 600px;
+    background-image: url('/assets/images/graphics/roadmap.svg');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 80%;
+  }
+
   .roadmap-list {
-    max-width: 300px;
     list-style: none;
-    position: absolute;
-    padding: 0;
+    padding: 0 0 0 $base-padding;
+
+    @media all and (min-width: $breakpoint-lg-up) {
+      position: absolute;
+      max-width: 300px;
+      padding: 0;
+    }
     
     li {
       margin-bottom: 5px;

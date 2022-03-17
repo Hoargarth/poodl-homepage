@@ -1,5 +1,5 @@
 <template>
-    <div class="poodl-column" :class="widthClasses" :style="{justifyContent: vAlign, alignItems: hAlign, textAlign: textAlign}">
+    <div class="poodl-column" :class="classes" :style="{justifyContent: vAlign, alignItems: hAlign, textAlign: textAlign}">
         <slot />
     </div>
 </template>
@@ -31,13 +31,16 @@
             textAlign: {
                 default: 'left',
                 type: String,
-            }
+            },
+            additionalClasses: {
+                type: String,
+            },
         },
         data: () => ({
         }),
         computed: {
-            widthClasses: function() {
-                return `column-mobile-${this.mobile} column-tablet-${this.tablet} column-desktop-${this.desktop}`;
+            classes: function() {
+                return `column-mobile-${this.mobile} column-tablet-${this.tablet} column-desktop-${this.desktop} ${this.additionalClasses}`;
             }
         }
     }

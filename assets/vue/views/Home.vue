@@ -14,7 +14,7 @@
                     </poodl-textblock>
                 </poodl-column>
                 <poodl-column :mobile="12" :tablet="4" :desktop="6" hAlign="center" vAlign="center">
-                    <poodl-image src="/gifs/metalCoinSpin.gif" alt="$POODL Token Spinning Coin" maxWidth="350px" />
+                    <poodl-image src="/gifs/metalCoinSpin.gif" alt="$POODL Token Spinning Coin" maxWidth="350px" mobileMaxWidth="200px" />
                 </poodl-column>
             </poodl-row>
             <div class="buttons-wrapper-row">
@@ -84,10 +84,10 @@
                     <div class="poodl-tokenomic"><poodl-image src="/icons/tokenomic.png" alt="Tokenomics Icon" maxWidth="35px" /> 0.33% to Liquidity</div>
                     <div class="poodl-tokenomic"><poodl-image src="/icons/tokenomic.png" alt="Tokenomics Icon" maxWidth="35px" /> 0.33% to Marketing</div>
                 </poodl-column>
-                <poodl-column :mobile="12" :tablet="8" :desktop="6">
+                <poodl-column :mobile="12" :tablet="8" :desktop="6" additionalClasses="margin-top-mobile">
                     <div class="poodl-twoline-info">
                         <span class="highlight bold">Contract</span><br/>
-                        <strong>0x4a68c250486a116dc8d6a0c5b0677de07cc09c5d</strong>
+                        <strong class="breakall">0x4a68c250486a116dc8d6a0c5b0677de07cc09c5d</strong>
                     </div>
                     <div class="poodl-twoline-info">
                         <span class="highlight bold">Total Supply</span><br/>

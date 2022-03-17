@@ -1,5 +1,6 @@
 <template>
     <div class="poodl-roadmap">
+        <strong>Goals Q1</strong>
         <ul class="roadmap-list first">
             <li class="checked">Release of POODL AR app</li>
             <li class="checked">Opening of the POODL Crypto Academy</li>
@@ -11,6 +12,7 @@
             <li class="checked">POODL team expansion</li>
         </ul>
 
+        <strong>Goals Q2</strong>
         <ul class="roadmap-list second">
             <li class="">POODL moves into real world gaming</li>
             <li class="">Geocaching</li>
@@ -22,6 +24,7 @@
             <li class="">Increased marketing and charity donations</li>
         </ul>
 
+        <strong>Goals Q3</strong>
         <ul class="roadmap-list third">
             <li class="">Network bridges decided</li>
             <li class="">Funding for bridges complete</li>

@@ -6,6 +6,7 @@
     top: 0;
     left: 6px;
     z-index: 10;
+    transition: left .2s ease-in-out;
 
     &:before,
     &:after {
@@ -24,6 +25,18 @@
 
     &:after {
         left: calc(100% + 3px);
+    }
+
+    &.disabled {
+        left: -100%;
+
+        .navigation-mobile {
+            background-color: $dark-navy;
+
+            div {
+                opacity: 1;
+            }
+        }
     }
 }
 
@@ -101,5 +114,32 @@
         padding: 1px 0;
         background-color: $gray-medium;
         margin: 40px auto;
+    }
+}
+
+.navigation-mobile {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px 15px 0;
+    display: flex;
+    background-color: transparent;
+    transition: background-color .2s ease-in-out;
+
+    @media all and (min-width: $breakpoint-lg-up) {
+        display: none;
+    }
+
+    div {
+        display: flex;
+        flex-grow: 1;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-size: 2.6rem;
+        margin-bottom: 5px;
+        opacity: 0;
+        transition: opacity .2s ease-in-out;
     }
 }

@@ -1,10 +1,18 @@
 .poodl-carousel {
   position: relative;
   max-width: 1050px;
-  margin: 30px auto 50px;
+  margin: 30px -30px 50px;
+
+  @media all and (min-width: $breakpoint-lg-up) {
+    margin: 30px auto 50px;
+  }
 
   .swiper {
-    width: 900px;
+    width: 100%;
+
+    @media all and (min-width: $breakpoint-lg-up) {
+      width: 900px;
+    }
   }
 
   .nft-slide {

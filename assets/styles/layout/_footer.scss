@@ -1,5 +1,7 @@
 .poodl-footer {
-    padding-left: 315px;
+    @media all and (min-width: $breakpoint-lg-up) {
+        padding-left: 315px;
+    }
 
     .footer-inner {
         background-color: $dark-navy;
@@ -17,10 +19,24 @@
         margin-bottom: 5px;
     }
 
+    .footer-links {
+        @media all and (max-width: $breakpoint-md-down) {
+            &:not(:last-child) {
+                margin-bottom: 35px;
+            }
+        }
+    }
+
     .social-media {
         display: flex;
         align-items: center;
         margin-top: 35px;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        @media all and (max-width: $breakpoint-md-down) {
+            gap: 5px;
+        }
 
         a {
             margin-right: 15px;
@@ -30,5 +46,10 @@
     .copyright {
         margin-top: 17px;
         font-size: 1.2rem;
+
+        @media all and (max-width: $breakpoint-lg-down) {
+            margin-left: auto;
+            margin-right: auto;
+        }
     }
 }

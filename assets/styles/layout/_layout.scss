@@ -9,20 +9,31 @@
     flex-direction: column;
 }
 
-@for $i from 1 to 12 {
+@for $i from 1 to 13 {
     .column-mobile-#{$i} {
         width: calc(100% / 12 * $i);
     }
 }
 
-@for $i from 1 to 12 {
-    .column-tablet-#{$i} {
-        width: calc(100% / 12 * $i);
+@media all and (min-width: $breakpoint-md-up) {
+    @for $i from 1 to 13 {
+        .column-tablet-#{$i} {
+            width: calc(100% / 12 * $i);
+        }
     }
 }
 
-@for $i from 1 to 12 {
-    .column-desktop-#{$i} {
-        width: calc(100% / 12 * $i);
+@media all and (min-width: $breakpoint-lg-up) {
+    @for $i from 1 to 13 {
+        .column-desktop-#{$i} {
+            width: calc(100% / 12 * $i);
+        }
+    }
+}
+
+// some spacing stuff
+@media all and (max-width: $breakpoint-md-down) {
+    .margin-top-mobile {
+        margin-top: 35px;
     }
 }

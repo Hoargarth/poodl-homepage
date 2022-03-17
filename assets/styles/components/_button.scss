@@ -1,3 +1,18 @@
+.buttons-wrapper-row {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  row-gap: 30px;
+
+  @media all and (min-width: $breakpoint-md-up) {
+    flex-direction: row;
+  }
+
+  &.center {
+    justify-content: center;
+  }
+}
+
 .base-button {
     a,
     button {

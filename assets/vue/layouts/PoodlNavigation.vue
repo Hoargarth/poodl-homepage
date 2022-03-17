@@ -1,5 +1,16 @@
 <template>
-    <div class="navigation-container">
+    <div class="navigation-container" :class="isDisabled ? 'disabled' : ''">
+        <div class="navigation-mobile">
+            <button class="hamburger hamburger--elastic"
+                :class="isDisabled ? '' : 'is-active'"
+                type="button"
+                @click="toggleNavigation">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+            </button>
+            <div><strong>Poodl</strong>Token</div>
+        </div>
         <div class="navigation-inner">
             <img class="logo" src="@images/icons/poodl-head.png" alt="$POOL Token">
             <div class="nav-wrapper">
@@ -31,6 +42,10 @@
         name: 'PoodlNavigation',
         props: {},
         data: () => ({
+            isDisabled: {
+                default: false,
+                type: Boolean,
+            },
             homeNav: [
                 {
                     text: 'Secure',
@@ -94,7 +109,6 @@
         }),
         methods: {
             setActive () {
-                console.log('check');
                 const navLinks = document.querySelectorAll(".navigation-container a");
                 const currentPath = location.href;
 
@@ -106,11 +120,26 @@
                         link.classList.remove('active');
                     }
                 });
+            },
+            disableOnMobile () {
+                const matchMobile = window.matchMedia('(max-width: 767px)');
+
+                if (matchMobile.matches) {
+                    this.isDisabled = true;
+                } else {
+                    this.isDisabled = false;
+                }
+
+                console.log(this.isDisabled);
+            },
+            toggleNavigation () {
+                this.isDisabled = !this.isDisabled;
             }
         },
         mounted () {
             this.$nextTick(() => {
                 this.setActive();
+                this.disableOnMobile();
                 
                 const links = document.querySelectorAll(".navigation-container a");
                 links.forEach(link => {

@@ -1,6 +1,10 @@
 .poodl-usp {
   .poodl-column {
-    padding: 0 50px;
+    padding: 0 0 75px;
+
+    @media all and (min-width: $breakpoint-md-up) {
+      padding: 0 50px;
+    }
   }
 
   .heading {
