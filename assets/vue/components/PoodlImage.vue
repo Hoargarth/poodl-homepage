@@ -31,7 +31,7 @@
         },
         computed: {
             computedMaxWidth () {
-                const mediaQuery = window.matchMedia('(max-width: 767px)');
+                const mediaQuery = window.matchMedia('(max-width: 1023px)');
                 
                 if (mediaQuery.matches && this.mobileMaxWidth) {
                     return this.mobileMaxWidth;

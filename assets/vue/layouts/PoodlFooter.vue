@@ -2,13 +2,13 @@
     <footer class="poodl-footer">
         <div class="footer-inner">
             <poodl-row>
-            <poodl-column :mobile="12" :tablet="4" :desktop="2" additionalClasses="footer-links">
+            <poodl-column :mobile="12" :tablet="4" :desktop="3" additionalClasses="footer-links">
                 <h3>Poodl Charts</h3>
                 <a href="">Coingecko</a>
                 <a href="">CoinMarketCap</a>
                 <a href="">Dextools</a>
             </poodl-column>
-            <poodl-column :mobile="12" :tablet="4" :desktop="2" additionalClasses="footer-links">
+            <poodl-column :mobile="12" :tablet="4" :desktop="3" additionalClasses="footer-links">
                 <h3>DEX Exchanges</h3>
                 <a href="">PancakeSwap</a>
                 <a href="">SushiSwap</a>
@@ -16,13 +16,13 @@
                 <a href="">1inch</a>
                 <a href="">Bakeryswap</a>
             </poodl-column>
-            <poodl-column :mobile="12" :tablet="4" :desktop="2" additionalClasses="footer-links">
+            <poodl-column :mobile="12" :tablet="4" :desktop="3" additionalClasses="footer-links">
                 <h3>CEX Exchanges</h3>
                 <a href="">LBank</a>
                 <a href="">Hotbit</a>
                 <a href="">Whitebit</a>
             </poodl-column>
-            <poodl-column :mobile="12" :tablet="4" :desktop="2" additionalClasses="footer-links">
+            <poodl-column :mobile="12" :tablet="4" :desktop="3" additionalClasses="footer-links">
                 <h3>Partners</h3>
                 <a href="">Demons & Angels</a>
             </poodl-column>

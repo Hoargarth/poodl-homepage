@@ -4,7 +4,7 @@ section.section {
         $base-padding
         $section-top-bottom-padding;
 
-    @media all and (min-width: $breakpoint-md-up) {
+    @media all and (min-width: $breakpoint-xl-up) {
         padding:
             $section-top-bottom-padding
             $section-left-right-padding

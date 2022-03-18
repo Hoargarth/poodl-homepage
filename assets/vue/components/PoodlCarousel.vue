@@ -74,9 +74,12 @@
                 // breakpoints for everything that's not mobile
                 breakpoints: {
                     768: {
+                        slidesPerView: 2.5,
+                    },
+                    1024: {
                         slidesPerView: 3.5,
                     },
-                    1200: {
+                    1400: {
                         slidesPerView: 4.5,
                     },
                 },

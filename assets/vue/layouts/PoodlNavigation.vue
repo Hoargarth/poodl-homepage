@@ -122,7 +122,7 @@
                 });
             },
             disableOnMobile () {
-                const matchMobile = window.matchMedia('(max-width: 767px)');
+                const matchMobile = window.matchMedia('(max-width: 1199px)');
 
                 if (matchMobile.matches) {
                     this.isDisabled = true;

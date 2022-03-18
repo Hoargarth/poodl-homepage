@@ -5,14 +5,7 @@
     <div class="view-container">
       <router-view /> 
       <poodl-footer />
+      <poodl-floating-buy />
     </div>
   </div>
 </template>
-
-<script>
-import PoodlNavigation from './layouts/PoodlNavigation.vue';
-
-export default {
-  components: {PoodlNavigation},
-};
-</script> 

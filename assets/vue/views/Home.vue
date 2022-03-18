@@ -77,14 +77,14 @@
             </poodl-row>
 
             <poodl-row vAlign="center">
-                <poodl-column :mobile="12" :tablet="4" :desktop="4">
+                <poodl-column :mobile="12" :tablet="5" :desktop="4">
                     <div class="poodl-tokenomic"><poodl-image src="/icons/tokenomic.png" alt="Tokenomics Icon" maxWidth="35px" /> 1% Redistribution</div>
                     <div class="poodl-tokenomic"><poodl-image src="/icons/tokenomic.png" alt="Tokenomics Icon" maxWidth="35px" /> 1% Burned</div>
                     <div class="poodl-tokenomic"><poodl-image src="/icons/tokenomic.png" alt="Tokenomics Icon" maxWidth="35px" /> 0.33% to Charity</div>
                     <div class="poodl-tokenomic"><poodl-image src="/icons/tokenomic.png" alt="Tokenomics Icon" maxWidth="35px" /> 0.33% to Liquidity</div>
                     <div class="poodl-tokenomic"><poodl-image src="/icons/tokenomic.png" alt="Tokenomics Icon" maxWidth="35px" /> 0.33% to Marketing</div>
                 </poodl-column>
-                <poodl-column :mobile="12" :tablet="8" :desktop="6" additionalClasses="margin-top-mobile">
+                <poodl-column :mobile="12" :tablet="7" :desktop="6" additionalClasses="margin-top-mobile">
                     <div class="poodl-twoline-info">
                         <span class="highlight bold">Contract</span><br/>
                         <strong class="breakall">0x4a68c250486a116dc8d6a0c5b0677de07cc09c5d</strong>

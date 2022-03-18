@@ -1,0 +1,47 @@
+.floating-buy-button {
+  z-index: 10;
+  height: 0;
+  overflow: hidden;
+
+  #buy-button {
+    position: fixed;
+    z-index: 10;
+    right: -83px;
+    top: 150px;
+    transform: rotate(-90deg);
+    border-radius: 0;
+    box-shadow: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px 50px 10px 10px;
+    background-color: $dark-navy;
+    background-image: url('/assets/images/icons/exchange.png');
+    background-position: right 10px center;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    box-shadow: 0 0 17px 0px transparent;
+    transition: box-shadow .2s ease-in-out;
+
+    span {
+      background-image: linear-gradient(90deg, $gradient-start 0%, $gradient-end);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: 900;
+      font-size: 2.8rem;
+    }
+
+    &:hover {
+      box-shadow: 0 0 17px 0px $gradient-end;
+    }
+  }
+
+  #buy-modal {
+    position: fixed;
+    z-index: 20;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: $dark-navy;
+  }
+}

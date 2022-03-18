@@ -24,6 +24,7 @@ import PoodlImage from './vue/components/PoodlImage';
 import PoodlUSP from './vue/components/PoodlUSP';
 import PoodlRoadmap from './vue/components/PoodlRoadmap';
 import PoodlCarousel from './vue/components/PoodlCarousel';
+import PoodlFloatingBuyButton from './vue/components/PoodlFloatingBuyButton';
 
 // external components
 import Swiper from 'swiper/bundle'; // see swiperjs.com/get-started
@@ -50,6 +51,7 @@ Vue.component('poodl-image', PoodlImage);
 Vue.component('poodl-usp', PoodlUSP);
 Vue.component('poodl-roadmap', PoodlRoadmap);
 Vue.component('poodl-carousel', PoodlCarousel);
+Vue.component('poodl-floating-buy', PoodlFloatingBuyButton);
 
 // Setup the Vue instance
 new Vue({
