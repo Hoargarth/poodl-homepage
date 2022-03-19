@@ -74,6 +74,10 @@
                     url: '/news',
                 },
                 {
+                    text: 'Buy POODL',
+                    url: '/buy',
+                },
+                {
                     text: 'Team',
                     url: '/team',
                 },

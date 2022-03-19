@@ -27,6 +27,7 @@
         text-decoration: none;
         padding: 12px;
         position: relative;
+        transition: all .4s ease-in-out;
 
         &:before,
         &:after {
@@ -93,6 +94,11 @@
                 left: 0;
                 transform: translateX(-1px);
             }
+        }
+
+        &.active {
+          background-color: #FF4400cc;
+          color: $white;
         }
     }
 }
