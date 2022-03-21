@@ -41,76 +41,78 @@
     export default {
         name: 'PoodlNavigation',
         props: {},
-        data: () => ({
-            isDisabled: {
-                default: false,
-                type: Boolean,
-            },
-            homeNav: [
-                {
-                    text: 'Secure',
-                    url: '/#secure',
+        data: function () {
+            return {
+                isDisabled: {
+                    default: false,
+                    type: Boolean,
                 },
-                {
-                    text: 'Tokenomics',
-                    url: '/#tokenomics',
-                },
-                {
-                    text: 'Roadmap',
-                    url: '/#roadmap',
-                },
-                {
-                    text: '3D POODL NFTs',
-                    url: '/#nft',
-                },
-                {
-                    text: 'Community',
-                    url: '/#community',
-                },
-            ],
-            globalNav: [
-                {
-                    text: 'News / Blog',
-                    url: '/news',
-                },
-                {
-                    text: 'Buy POODL',
-                    url: '/buy',
-                },
-                {
-                    text: 'Team',
-                    url: '/team',
-                },
-                {
-                    text: 'Gaming',
-                    url: '/games',
-                },
-                {
-                    text: 'Charity',
-                    url: '/charity',
-                },
-                {
-                    text: 'PoodLympics',
-                    url: '/poodlympics',
-                },
-                {
-                    text: 'Whitepaper',
-                    url: '/whitepaper',
-                },
-                {
-                    text: 'Memes',
-                    url: '/memes',
-                },
-                {
-                    text: 'PoodlCast',
-                    url: '/poodlcast',
-                },
-                {
-                    text: 'Poodl Academy',
-                    url: '/academy',
-                },
-            ],
-        }),
+                homeNav: [
+                    {
+                        text: this.$t("navigation.secure"),
+                        url: '/#secure',
+                    },
+                    {
+                        text: 'Tokenomics',
+                        url: '/#tokenomics',
+                    },
+                    {
+                        text: 'Roadmap',
+                        url: '/#roadmap',
+                    },
+                    {
+                        text: '3D POODL NFTs',
+                        url: '/#nft',
+                    },
+                    {
+                        text: 'Community',
+                        url: '/#community',
+                    },
+                ],
+                globalNav: [
+                    //{
+                    //    text: 'News / Blog',
+                    //    url: '/news',
+                    //},
+                    {
+                        text: 'Buy POODL',
+                        url: '/buy',
+                    },
+                    {
+                        text: 'Team',
+                        url: '/team',
+                    },
+                    {
+                        text: 'Gaming',
+                        url: '/games',
+                    },
+                    {
+                        text: 'Charity',
+                        url: '/charity',
+                    },
+                    {
+                        text: 'PoodLympics',
+                        url: '/poodlympics',
+                    },
+                    {
+                        text: 'Whitepaper',
+                        url: '/whitepaper',
+                    },
+                    //{
+                    //    text: 'Memes',
+                    //    url: '/memes',
+                    //},
+                    {
+                        text: 'PoodlCast',
+                        url: '/poodlcast',
+                    },
+                    {
+                        text: 'Poodl Academy',
+                        url: '/academy',
+                    },
+                ],
+            }
+        },
         methods: {
             setActive () {
                 const navLinks = document.querySelectorAll(".navigation-container a");
@@ -133,8 +135,6 @@
                 } else {
                     this.isDisabled = false;
                 }
-
-                console.log(this.isDisabled);
             },
             toggleNavigation () {
                 this.isDisabled = !this.isDisabled;

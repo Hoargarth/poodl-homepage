@@ -8,7 +8,9 @@ import VueRouter from 'vue-router';
 import Vuex from 'vuex';
 import router from './vue/router/router.js';
 import App from "./vue/app.vue";
-import store from "./vue/store/store";
+import store from "./vue/store/store.js";
+import VueI18n from 'vue-i18n';
+import messages from "./vue/i18n/i18n.js";
 
 // vue components
 import PoodlNavigation from './vue/layouts/PoodlNavigation';
@@ -35,6 +37,7 @@ Vue.prototype.$swiper = Swiper;
 // adds Router and Store as plugins
 Vue.use(VueRouter);
 Vue.use(Vuex);
+Vue.use(VueI18n);
 
 // add components global so we don't have to
 // import them all the time
@@ -53,8 +56,15 @@ Vue.component('poodl-roadmap', PoodlRoadmap);
 Vue.component('poodl-carousel', PoodlCarousel);
 Vue.component('poodl-floating-buy', PoodlFloatingBuyButton);
 
+const i18n = new VueI18n({
+  locale: 'en',
+  fallbackLocale: 'en',
+  messages,
+});
+
 // Setup the Vue instance
 new Vue({
+  i18n,
   router,
   store,
   render: h => h(App)
