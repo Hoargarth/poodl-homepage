@@ -53,19 +53,19 @@
                         url: '/#secure',
                     },
                     {
-                        text: 'Tokenomics',
+                        text: this.$t("navigation.tokenomics"),
                         url: '/#tokenomics',
                     },
                     {
-                        text: 'Roadmap',
+                        text: this.$t("navigation.roadmap"),
                         url: '/#roadmap',
                     },
                     {
-                        text: '3D POODL NFTs',
+                        text: this.$t("navigation.nft"),
                         url: '/#nft',
                     },
                     {
-                        text: 'Community',
+                        text: this.$t("navigation.community"),
                         url: '/#community',
                     },
                 ],
@@ -75,27 +75,23 @@
                     //    url: '/news',
                     //},
                     {
-                        text: 'Buy POODL',
+                        text: this.$t("navigation.buy"),
                         url: '/buy',
                     },
                     {
-                        text: 'Team',
+                        text: this.$t("navigation.team"),
                         url: '/team',
                     },
                     {
-                        text: 'Gaming',
+                        text: this.$t("navigation.games"),
                         url: '/games',
                     },
                     {
-                        text: 'Charity',
+                        text: this.$t("navigation.charity"),
                         url: '/charity',
                     },
                     {
-                        text: 'PoodLympics',
-                        url: '/poodlympics',
-                    },
-                    {
-                        text: 'Whitepaper',
+                        text: this.$t("navigation.whitepaper"),
                         url: '/whitepaper',
                     },
                     //{
@@ -103,11 +99,11 @@
                     //    url: '/memes',
                     //},
                     {
-                        text: 'PoodlCast',
+                        text: this.$t("navigation.poodlcast"),
                         url: '/poodlcast',
                     },
                     {
-                        text: 'Poodl Academy',
+                        text: this.$t("navigation.academy"),
                         url: '/academy',
                     },
                 ],

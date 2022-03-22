@@ -41,7 +41,7 @@
                 </div>
             </poodl-column>
             <poodl-column :mobile="12" :tablet="6" :desktop="6" hAlign="flex-end" vAlign="center">
-                <span class="copyright">© 2021 - 2022 PoodlToken. All rights reserved.</span>
+                <span class="copyright">{{ $t("footer.copyright") }}</span>
             </poodl-column>
         </poodl-row>
         </div>

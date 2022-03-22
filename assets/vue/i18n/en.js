@@ -1,7 +1,59 @@
 const en = {
     'navigation': {
         'secure': 'Secure',
-    }
+        'tokenomics' : 'Tokenomics',
+        'roadmap' : 'Roadmap',
+        'nft' : '3D POODL NFTs',
+        'community' : 'Community',
+        'buy' : 'Buy POODL',
+        'team' : 'Team',
+        'games' : 'Gaming',
+        'charity' : 'Charity',
+        'whitepaper' : 'Whitepaper',
+        'poodlcast' : 'PoodlCast',
+        'academy' : 'Poodl Academy',
+    },
+    'footer' : {
+        'copyright' : '© 2021 - 2022 PoodlToken. All rights reserved.',
+    },
+    'component' : {
+        'poodllFloatingBuyButton' : {
+            'buyButton' : 'Buy POODL',
+            'modalTitle' : 'Swap / Buy $POODL now',
+            'modalInfo' : 'You can now buy POODL with credit/debit card directly OR swap virtually any crypto!',
+            'toggleCrypto' : 'Swap with Crypto',
+            'toggleFiat' : 'Buy with FIAT',
+            'toggleInfo' : 'Click "buy with FIAT" above to buy with FIAT currency such as US Dollars, Euros or Pounds etc. Or click "swap with crypto" to swap over 400 crypto currencies such as Bitcoin, Ethereum, BNB etc for POODL!',
+            'secInfo' : '* Due to SEC regulations, the FIAT option is currently not available inside the United States. Work is being done to bring this functionality to our US investors.',
+        },
+        'poodlRoadmap' : {
+            'goalOne' : 'Goals Q1',
+            'goalTwo' : 'Goals Q2',
+            'goalThree' : 'Goals Q3',
+            'arApp' : 'Release of POODL AR app',
+            'academy' : 'Opening of the POODL Crypto Academy',
+            'nftMint' : 'Minting of 1st round of 3D augmented Reality NFTs',
+            'artistCollab' : 'Collaboration with external artists',
+            'generateNft' : 'Funding of generative NFT project',
+            'wagmifier' : 'The foundations laid for the Wagmifier project',
+            'ama' : 'AMA sessions and continued marketing',
+            'teamExpand' : 'POODL team expansion',
+            'gaming' : 'POODL moves into real world gaming',
+            'geocaching' : 'Geocaching',
+            'sideScroller' : 'Side scroller game developed and released',
+            'nftMintTwo' : 'NFT minting round 2',
+            'bridgeExpl' : 'Funding for network bridges explored',
+            'poodlverse' : 'Foundations of POODLVerse with NFT enabled gaming',
+            'bridgeNarrow' : 'Bridge options narrowed',
+            'incMarketing' : 'Increased marketing and charity donations',
+            'bridgeDecided' : 'Network bridges decided',
+            'bridgeFunding' : 'Funding for bridges complete',
+            'addPoodlApp' : 'Additional features and functionality around POODL AR gaming',
+            'charity' : 'Charities expanded',
+            'communityCharity' : 'POODL community charity initiativePOODL community charity initiative',
+            'firstBridge' : 'First bridge completed and live',
+        }
+    },
 };
 
 export default en;

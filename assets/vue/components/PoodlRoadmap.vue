@@ -1,37 +1,37 @@
 <template>
     <div class="poodl-roadmap">
-        <strong>Goals Q1</strong>
+        <strong>{{ $t("component.poodlRoadmap.goalOne") }}</strong>
         <ul class="roadmap-list first">
-            <li class="checked">Release of POODL AR app</li>
-            <li class="checked">Opening of the POODL Crypto Academy</li>
-            <li class="checked">Minting of 1st round of 3D augmented Reality NFTs</li>
-            <li class="checked">Collaboration with external artists</li>
-            <li class="">Funding of generative NFT project</li>
-            <li class="">The foundations laid for the Wagmifier project</li>
-            <li class="checked">AMA sessions and continued marketing</li>
-            <li class="checked">POODL team expansion</li>
+            <li class="checked">{{ $t("component.poodlRoadmap.arApp") }}</li>
+            <li class="checked">{{ $t("component.poodlRoadmap.academy") }}</li>
+            <li class="checked">{{ $t("component.poodlRoadmap.nftMint") }}</li>
+            <li class="checked">{{ $t("component.poodlRoadmap.artistCollab") }}</li>
+            <li class="">{{ $t("component.poodlRoadmap.generateNft") }}</li>
+            <li class="">{{ $t("component.poodlRoadmap.wagmifier") }}</li>
+            <li class="checked">{{ $t("component.poodlRoadmap.ama") }}</li>
+            <li class="checked">{{ $t("component.poodlRoadmap.teamExpand") }}</li>
         </ul>
 
-        <strong>Goals Q2</strong>
+        <strong>{{ $t("component.poodlRoadmap.goalTwo") }}</strong>
         <ul class="roadmap-list second">
-            <li class="">POODL moves into real world gaming</li>
-            <li class="">Geocaching</li>
-            <li class="">Side scroller game developed and released</li>
-            <li class="">NFT minting round 2</li>
-            <li class="">Funding for network bridges explored</li>
-            <li class="">Foundations of POODLVerse with NFT enabled gaming</li>
-            <li class="">Bridge options narrowed</li>
-            <li class="">Increased marketing and charity donations</li>
+            <li class="">{{ $t("component.poodlRoadmap.gaming") }}</li>
+            <li class="">{{ $t("component.poodlRoadmap.geocaching") }}</li>
+            <li class="">{{ $t("component.poodlRoadmap.sideScroller") }}</li>
+            <li class="">{{ $t("component.poodlRoadmap.nftMintTwo") }}</li>
+            <li class="">{{ $t("component.poodlRoadmap.bridgeExpl") }}</li>
+            <li class="">{{ $t("component.poodlRoadmap.podlverse") }}</li>
+            <li class="">{{ $t("component.poodlRoadmap.bridgeNarrow") }}</li>
+            <li class="">{{ $t("component.poodlRoadmap.incMarketing") }}</li>
         </ul>
 
-        <strong>Goals Q3</strong>
+        <strong>{{ $t("component.poodlRoadmap.goalThree") }}</strong>
         <ul class="roadmap-list third">
-            <li class="">Network bridges decided</li>
-            <li class="">Funding for bridges complete</li>
-            <li class="">Additional features and functionality around POODL AR gaming</li>
-            <li class="">Charities expanded</li>
-            <li class="">POODL community charity initiative</li>
-            <li class="">First bridge completed and live</li>
+            <li class="">{{ $t("component.poodlRoadmap.bridgeDecided") }}</li>
+            <li class="">{{ $t("component.poodlRoadmap.bridgeFunding") }}</li>
+            <li class="">{{ $t("component.poodlRoadmap.addPoodlApp") }}</li>
+            <li class="">{{ $t("component.poodlRoadmap.charity") }}</li>
+            <li class="">{{ $t("component.poodlRoadmap.communityCharity") }}</li>
+            <li class="">{{ $t("component.poodlRoadmap.firstBridge") }}</li>
         </ul>
     </div>
 </template>
