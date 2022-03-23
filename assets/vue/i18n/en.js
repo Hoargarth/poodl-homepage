@@ -54,6 +54,23 @@ const en = {
             'firstBridge' : 'First bridge completed and live',
         }
     },
+    'views' : {
+        'buy' : {
+            'viewTitle' : 'Buy $POODL',
+            'viewSubTitle' : 'become part of our family',
+            'titleTextblock' : 'There are many options to buy PoodlToken. The easiest way to buy $POODL is directly via other crypto or with FIAT through our widgets. To do so, simply click on "Buy $POODL" on the right side. For other options, see the list below.',
+            'dexTitle' : 'Decentralized Exchanges',
+            'dexTextblock' : 'Since DEX support our tokenomics, you should consider buying $POODL using one of those methods. For this you require your own wallet.',
+            'cexTitle' : 'Centralized Exchanges',
+            'cexTextblock' : 'Easier for beginners to buy $POODL, but they don\'t support our tokenomics.',
+        },
+        'team' : {
+            'viewTitle' : '$POODL Team',
+            'viewSubTitle' : 'the magicians behind the scenes',
+            'titleTextblock' : 'All our team members are community members as well. And just like all community members, we didn\'t receive any tokens, instead we invested on our selves and working for the project for free.',
+            'coreTitle' : 'Core Team',
+        },
+    }
 };
 
 export default en;

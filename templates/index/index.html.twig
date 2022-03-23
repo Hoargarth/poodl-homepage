@@ -1,6 +1,6 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello IndexController!{% endblock %}
+{% block title %}{{ openGraphData.title }}{% endblock %}
 {% block og_title %}{{ openGraphData.title }}{% endblock %}
 {% block og_description %}{{ openGraphData.description }}{% endblock %}
 {% block og_image %}{{ openGraphData.image }}{% endblock %}

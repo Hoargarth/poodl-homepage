@@ -100,11 +100,11 @@
                     //},
                     {
                         text: this.$t("navigation.poodlcast"),
-                        url: '/poodlcast',
+                        url: 'https://www.youtube.com/watch?v=p5sWDzKa8X8&list=PL7qEEtxbrLBJZjQi9e1h30whL7iPaV17b',
                     },
                     {
                         text: this.$t("navigation.academy"),
-                        url: '/academy',
+                        url: 'https://t.me/poodlacademy',
                     },
                 ],
             }

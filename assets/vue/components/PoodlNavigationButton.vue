@@ -1,7 +1,10 @@
 <template>
-    <a class="navigation-button" :href="url">
-        <slot/>
+    <a :href="url" v-if="isExternal">
+        <slot />
     </a>
+    <router-link :to="url" v-else>
+        <slot/>
+    </router-link>
 </template>
 
 <script>
@@ -15,5 +18,10 @@
         },
         data: () => ({
         }),
+        computed: {
+            isExternal () {
+                return this.url.includes('://');
+            }
+        },
     }
 </script>
