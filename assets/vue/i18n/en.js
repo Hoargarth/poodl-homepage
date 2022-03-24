@@ -69,6 +69,8 @@ const en = {
             'viewSubTitle' : 'the magicians behind the scenes',
             'titleTextblock' : 'All our team members are community members as well. And just like all community members, we didn\'t receive any tokens, instead we invested on our selves and working for the project for free.',
             'coreTitle' : 'Core Team',
+            'influencersTitle' : 'Influencers',
+            'modTitle' : 'Moderators',
         },
     }
 };

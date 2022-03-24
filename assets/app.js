@@ -27,6 +27,7 @@ import PoodlUSP from './vue/components/PoodlUSP';
 import PoodlRoadmap from './vue/components/PoodlRoadmap';
 import PoodlCarousel from './vue/components/PoodlCarousel';
 import PoodlFloatingBuyButton from './vue/components/PoodlFloatingBuyButton';
+import PoodlTeamCard from './vue/components/PoodlTeamCard';
 
 // external components
 import Swiper from 'swiper/bundle'; // see swiperjs.com/get-started
@@ -55,6 +56,7 @@ Vue.component('poodl-usp', PoodlUSP);
 Vue.component('poodl-roadmap', PoodlRoadmap);
 Vue.component('poodl-carousel', PoodlCarousel);
 Vue.component('poodl-floating-buy', PoodlFloatingBuyButton);
+Vue.component('poodl-team-card', PoodlTeamCard);
 
 const i18n = new VueI18n({
   locale: 'en',
