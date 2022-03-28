@@ -72,6 +72,21 @@ const en = {
             'influencersTitle' : 'Influencers',
             'modTitle' : 'Moderators',
         },
+        'games' : {
+            'viewTitle' : '$POODL Augmented Reality',
+            'viewSubTitle' : 'first step into AR NFT gaming',
+            'titleTextblock' : 'The POODL Augmented Reality APP lets you see your 3D NFTs through your phones camera and pin them on any real location you like. It is already available on Google Play and will be also available on Appstore shortly.',
+            'android' : 'Android',
+            'apple' : 'Apple',
+            'googleArService' : 'Requires Android Version 10+ and',
+            'googleArServiceLink' : 'Google Play AR Services',
+            'appleNote' : 'in development',
+            'lowerTextOne' : 'With the upcoming updates, buyers of our 3D NFTs will be able to pin their own NFTs. You can already find and buy our 3D NFTs in our $POODL AR Pets collection on OpenSeas.',
+            'lowerTextTwo' : 'More features, like animations and interaction with your NFTs will be added through updates.',
+            'lowerTextThree' : 'POODL is redefining the NFT world and ushering in NFT 2.0',
+            '' : '',
+            '' : '',
+        },
     }
 };
 

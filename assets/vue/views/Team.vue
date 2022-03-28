@@ -67,6 +67,13 @@
                 </poodl-column>
             </poodl-row>
             <poodl-row gap="20px">
+                <poodl-team-card name="Elle"
+                    position="Influencer / Moderator"
+                    comment="Elle has been with the team since June 2021, and currently in charge of the Poodlympics. She is a guardian of our brand. She's the pitbull of $Poodl."
+                    :contacts="[
+                        {type: 'twitter', handle: 'B055Lady_Elle'},
+                        {type: 'telegram', handle: 'HelleOnEarth'},
+                ]" />
                 <poodl-team-card name="Crypto Messiah"
                     position="Influencer"
                     comment="Crypto legend and prophet of smallcaps."
@@ -78,13 +85,6 @@
                     comment="Crypto enthusiast and Token reviewer."
                     :contacts="[
                         {type: 'twitter', handle: 'OfficialTravlad'},
-                ]" />
-                <poodl-team-card name="Elle"
-                    position="Influencer / Moderator"
-                    comment="Elle has been with the team since June 2021, and currently in charge of the Poodlympics. She is a guardian of our brand. She's the pitbull of $Poodl."
-                    :contacts="[
-                        {type: 'twitter', handle: 'B055Lady_Elle'},
-                        {type: 'telegram', handle: 'HelleOnEarth'},
                 ]" />
             </poodl-row>
         </poodl-section>
