@@ -9,7 +9,11 @@
                     <span class="hamburger-inner"></span>
                 </span>
             </button>
-            <div><strong>Poodl</strong>Token</div>
+            <div>
+                <router-link to="/">
+                    <strong>Poodl</strong>Token
+                </router-link>
+            </div>
         </div>
         <div class="navigation-inner">
             <img class="logo" src="@images/icons/poodl-head.png" alt="$POOL Token">

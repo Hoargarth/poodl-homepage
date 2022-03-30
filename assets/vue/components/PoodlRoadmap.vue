@@ -19,7 +19,7 @@
             <li class="">{{ $t("component.poodlRoadmap.sideScroller") }}</li>
             <li class="">{{ $t("component.poodlRoadmap.nftMintTwo") }}</li>
             <li class="">{{ $t("component.poodlRoadmap.bridgeExpl") }}</li>
-            <li class="">{{ $t("component.poodlRoadmap.podlverse") }}</li>
+            <li class="">{{ $t("component.poodlRoadmap.poodlverse") }}</li>
             <li class="">{{ $t("component.poodlRoadmap.bridgeNarrow") }}</li>
             <li class="">{{ $t("component.poodlRoadmap.incMarketing") }}</li>
         </ul>

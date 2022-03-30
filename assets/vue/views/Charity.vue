@@ -12,7 +12,7 @@
                         {{ $t("views.charity.titleTextblock") }}
                         <br /><br />
                         {{ $t("views.charity.tokenomic") }}
-                        <p>{{ $t("views.charity.wallet") }}<br />0xC0D2bEf096fFf3a4Cce3A74A5DD58C3281Fb3a03</p>
+                        <p>{{ $t("views.charity.wallet") }}<br /><strong class="breakall">0xC0D2bEf096fFf3a4Cce3A74A5DD58C3281Fb3a03</strong></p>
                     </poodl-textblock>
                 </poodl-column>
             </poodl-row>
