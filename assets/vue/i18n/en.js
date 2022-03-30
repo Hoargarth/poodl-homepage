@@ -84,8 +84,18 @@ const en = {
             'lowerTextOne' : 'With the upcoming updates, buyers of our 3D NFTs will be able to pin their own NFTs. You can already find and buy our 3D NFTs in our $POODL AR Pets collection on OpenSeas.',
             'lowerTextTwo' : 'More features, like animations and interaction with your NFTs will be added through updates.',
             'lowerTextThree' : 'POODL is redefining the NFT world and ushering in NFT 2.0',
-            '' : '',
-            '' : '',
+        },
+        'charity' : {
+            'viewTitle' : '$POODL Charity',
+            'viewSubTitle' : 'because Charity is built in!',
+            'titleTextblock' : 'Poodl is committed to helping those in need. The community as a whole, wants to help any cause that can help dogs and humans have better lives. This section of our site will grow over time, so please come back often to check progress!',
+            'tokenomic' : 'Poodl\'s tokenomics includes charity as part of the token\'s core functionality. With every transaction made with Poodl, 0.33% goes directly to charity. But we are also happy to accept any donation to the charity wallet and delegate it to our charity partners!',
+            'wallet' : 'Charity Wallet Address',
+            'canines' : 'Canines for Disabled Kids',
+            'caninesText' : 'is Poodl\'s first and primary charity. Their mission is increasing independence for children with disabilities and their families by promoting service dog partnerships, understanding and awareness throughout the community.',
+            'poodlcast' : 'Listen and watch to our PoodlCast episode, featuring Exec. Director Kristin Hartness from Canines for Disabled Kdis:',
+            'community' : 'Independent Community Efforts',
+            'communityText' : 'Poodl\'s community members make a difference on their own! Some of our community members will occasionally seek out small charities and help them out.',
         },
     }
 };

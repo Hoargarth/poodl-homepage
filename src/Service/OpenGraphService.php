@@ -28,6 +28,12 @@ class OpenGraphService
             'image' => 'https://ogp.me/logo2.png',
             'type' => 'website games',
         ],
+        'charity' => [
+            'title' => 'OG Title charity',
+            'description' => 'OG Description games',
+            'image' => 'https://ogp.me/logo2.png',
+            'type' => 'website games',
+        ],
     ];
 
     public function __construct() {}
