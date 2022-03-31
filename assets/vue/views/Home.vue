@@ -18,8 +18,8 @@
                 </poodl-column>
             </poodl-row>
             <div class="buttons-wrapper-row">
-                <poodl-button url="/buy">Buy $POODL</poodl-button>
-                <poodl-button url="/whitepaper">Whitepaper</poodl-button>
+                <poodl-button :url="LINKS.poodlWebsite.buy">Buy $POODL</poodl-button>
+                <poodl-button :url="LINKS.poodlWebsite.whitepaper">Whitepaper</poodl-button>
             </div>
         </poodl-section>
 
@@ -165,8 +165,8 @@
             </poodl-carousel>
 
             <div class="buttons-wrapper-row center">
-                <poodl-button url="/nfts">About POODL NFTs</poodl-button>
-                <poodl-button url="https://opensea.io/collection/poodl-ar-pets">Full Collection</poodl-button>
+                <poodl-button :url="LINKS.poodlWebsite.nfts">About POODL NFTs</poodl-button>
+                <poodl-button :url="LINKS.poodlExternal.opensea">Full Collection</poodl-button>
             </div>
         </poodl-section>
 
@@ -184,9 +184,9 @@
                 </poodl-column>
             </poodl-row>
             <div class="buttons-wrapper-row">
-                <poodl-button url="https://t.me/POODL">Telegram</poodl-button>
-                <poodl-button url="https://www.reddit.com/r/PoodlTokenOfficial/">Reddit</poodl-button>
-                <poodl-button url="https://discord.gg/WJ7kWJJ2EJ">Discord</poodl-button>
+                <poodl-button :url="LINKS.poodlSocial.telegram">Telegram</poodl-button>
+                <poodl-button :url="LINKS.poodlSocial.reddit">Reddit</poodl-button>
+                <poodl-button :url="LINKS.poodlSocial.discord">Discord</poodl-button>
             </div>
         </poodl-section>
     </div>

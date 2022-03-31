@@ -10,7 +10,7 @@
                 </span>
             </button>
             <div>
-                <router-link to="/">
+                <router-link :to="LINKS.poodlWebsite.home">
                     <strong>Poodl</strong>Token
                 </router-link>
             </div>
@@ -18,7 +18,7 @@
         <div class="navigation-inner">
             <img class="logo" src="@images/icons/poodl-head.png" alt="$POOL Token">
             <div class="nav-wrapper">
-                <poodl-navigation-button url="/">
+                <poodl-navigation-button :url="LINKS.poodlWebsite.home">
                     <strong>Poodl</strong>Token<sup>TM</sup>
                 </poodl-navigation-button>
                 <poodl-navigation-button
@@ -54,23 +54,23 @@
                 homeNav: [
                     {
                         text: this.$t("navigation.secure"),
-                        url: '/#secure',
+                        url: this.LINKS.poodlWebsite.secure,
                     },
                     {
                         text: this.$t("navigation.tokenomics"),
-                        url: '/#tokenomics',
+                        url: this.LINKS.poodlWebsite.tokenomics,
                     },
                     {
                         text: this.$t("navigation.roadmap"),
-                        url: '/#roadmap',
+                        url: this.LINKS.poodlWebsite.roadmap,
                     },
                     {
                         text: this.$t("navigation.nft"),
-                        url: '/#nft',
+                        url: this.LINKS.poodlWebsite.nft,
                     },
                     {
                         text: this.$t("navigation.community"),
-                        url: '/#community',
+                        url: this.LINKS.poodlWebsite.community,
                     },
                 ],
                 globalNav: [
@@ -80,23 +80,23 @@
                     //},
                     {
                         text: this.$t("navigation.buy"),
-                        url: '/buy',
+                        url: this.LINKS.poodlWebsite.buy,
                     },
                     {
                         text: this.$t("navigation.team"),
-                        url: '/team',
+                        url: this.LINKS.poodlWebsite.team,
                     },
                     {
                         text: this.$t("navigation.games"),
-                        url: '/games',
+                        url: this.LINKS.poodlWebsite.games,
                     },
                     {
                         text: this.$t("navigation.charity"),
-                        url: '/charity',
+                        url: this.LINKS.poodlWebsite.charity,
                     },
                     {
                         text: this.$t("navigation.whitepaper"),
-                        url: '/whitepaper',
+                        url: this.LINKS.poodlWebsite.whitepaper,
                     },
                     //{
                     //    text: 'Memes',
@@ -104,11 +104,11 @@
                     //},
                     {
                         text: this.$t("navigation.poodlcast"),
-                        url: 'https://www.youtube.com/watch?v=p5sWDzKa8X8&list=PL7qEEtxbrLBJZjQi9e1h30whL7iPaV17b',
+                        url: this.LINKS.poodlSocial.poodlcast,
                     },
                     {
                         text: this.$t("navigation.academy"),
-                        url: 'https://t.me/poodlacademy',
+                        url: this.LINKS.poodlSocial.academy,
                     },
                 ],
             }

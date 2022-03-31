@@ -12,6 +12,9 @@ import store from "./vue/store/store.js";
 import VueI18n from 'vue-i18n';
 import messages from "./vue/i18n/i18n.js";
 
+// utilities
+import links from './vue/utilities/links.js';
+
 // vue components
 import PoodlNavigation from './vue/layouts/PoodlNavigation';
 import PoodlFooter from './vue/layouts/PoodlFooter';
@@ -34,6 +37,7 @@ import Swiper from 'swiper/bundle'; // see swiperjs.com/get-started
 
 // add global variables to vue
 Vue.prototype.$swiper = Swiper;
+Vue.prototype.LINKS = links;
 
 // adds Router and Store as plugins
 Vue.use(VueRouter);

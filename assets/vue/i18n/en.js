@@ -15,6 +15,22 @@ const en = {
     },
     'footer' : {
         'copyright' : '© 2021 - 2022 PoodlToken. All rights reserved.',
+        'charts' : 'Poodl Charts',
+        'dex' : 'DEX Exchanges',
+        'cex' : 'CEX Exchanges',
+        'partners' : 'Partners',
+        'coingecko' : 'CoinGecko',
+        'cmc' : 'CoinMarketCap',
+        'dextools' : 'Dextools',
+        'pancake' : 'PancakeSwap',
+        'sushi' : 'SushiSwap',
+        'swapzone' : 'Swapzone',
+        'inch' : '1inch',
+        'bakery' : 'Bakeryswap',
+        'lbank' : 'LBank',
+        'hotbit' : 'HOTBIT',
+        'whitebit' : 'Whitebit',
+        'dna' : 'Demons & Angels',
     },
     'component' : {
         'poodllFloatingBuyButton' : {
