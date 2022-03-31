@@ -20,7 +20,7 @@ const links = {
         'team' : '/team',
         'games' : '/games',
         'charity' : '/charity',
-        'whitepaper' : '/whiepaper',
+        'whitepaper' : '/whitepaper',
         'nfts' : '/nfts',
     },
     'poodlSocial' : {
