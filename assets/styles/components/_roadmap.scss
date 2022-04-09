@@ -1,76 +1,82 @@
 .poodl-roadmap {
   width: 100%;
-  position: relative;
+}
 
-  strong {
-    &:not(:first-child) {
-      margin-top: 50px;
-      display: block;
-    }
+.roadmap-category-inner {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 50px;
+}
 
-    @media all and (min-width: $breakpoint-lg-up) {
-      display: none !important;
-    }
-  }
+.poodl-roadmap-item {
+  display: flex;
+  width: calc(50% - 25px);
+  margin-bottom: 50px;
 
-  @media all and (min-width: $breakpoint-lg-up) {
-    min-height: 600px;
-    background-image: url('/assets/images/graphics/roadmap.svg');
-    background-repeat: no-repeat;
-    background-position: center bottom;
-    background-size: 80%;
-  }
+  .progress-container {
+    position: relative;
+    height: 174px;
 
-  .roadmap-list {
-    list-style: none;
-    padding: 0 0 0 $base-padding;
-
-    @media all and (min-width: $breakpoint-lg-up) {
-      position: absolute;
-      max-width: 300px;
-      padding: 0;
-    }
-    
-    li {
-      margin-bottom: 5px;
-      position: relative;
-      &:before {
-        content: '';
-        position: absolute;
-        width: 5px;
-        height: 5px;
-        border: 1px solid $white;
-        border-radius: 50%;
-        left: -20px;
-        top: 7px;
+    .outer-progress {
+      .progress-legend {
+        margin-top: 15px;
+        font-size: 1.4rem;
+  
+        span {
+          font-size: 1.4rem;
+        }
       }
 
-      &.checked {
-        &:before {
-          border: none;
-          width: 20px;
-          height: 25px;
-          border-radius: 0;
-          background-image: url('/assets/images/icons/checkmark.png');
-          top: -5px;
-          left: -30px;
+      &.ongoing {
+        .progress-legend {
+          display: none;
         }
       }
     }
 
-    &.first {
-      left: 9%;
-      bottom: 130px;
+    .inner-progress {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      .progress-legend {
+        margin-top: -35px;
+        font-size: 3.4rem;
+  
+        span {
+          font-size: 3.4rem;
+        }
+      }
+
+      &.ongoing {
+        .progress-legend {
+          margin: 0;
+          font-size: 9rem;
+
+          span {
+            font-size: 9rem;
+          }
+        }
+      }
+    }
+  }
+  .content-container {
+    padding-left: 25px;
+
+    h4 {
+      margin: 5px 0 0;
+      font-size: 2.2rem;
     }
 
-    &.second {
-      left: 38%;
-      bottom: 210px;
+    .timeframe {
+      display: block;
+      font-size: 2.2rem;
+      margin-bottom: 8px;
     }
 
-    &.third {
-      left: 63%;
-      bottom: 350px;
+    .content {
+      font-size: 1.6rem;
     }
   }
 }

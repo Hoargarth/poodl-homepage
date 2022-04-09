@@ -28,12 +28,14 @@ import PoodlButton from './vue/components/PoodlButton';
 import PoodlImage from './vue/components/PoodlImage';
 import PoodlUSP from './vue/components/PoodlUSP';
 import PoodlRoadmap from './vue/components/PoodlRoadmap';
+import PoodlRoadmapItem from './vue/components/PoodlRoadmapItem';
 import PoodlCarousel from './vue/components/PoodlCarousel';
 import PoodlFloatingBuyButton from './vue/components/PoodlFloatingBuyButton';
 import PoodlTeamCard from './vue/components/PoodlTeamCard';
 
 // external components
 import Swiper from 'swiper/bundle'; // see swiperjs.com/get-started
+import VueEllipseProgress from 'vue-ellipse-progress'; // see github.com/setaman/vue-ellipse-progress
 
 // add global variables to vue
 Vue.prototype.$swiper = Swiper;
@@ -43,6 +45,7 @@ Vue.prototype.LINKS = links;
 Vue.use(VueRouter);
 Vue.use(Vuex);
 Vue.use(VueI18n);
+Vue.use(VueEllipseProgress);
 
 // add components global so we don't have to
 // import them all the time
@@ -58,6 +61,7 @@ Vue.component('poodl-button', PoodlButton);
 Vue.component('poodl-image', PoodlImage);
 Vue.component('poodl-usp', PoodlUSP);
 Vue.component('poodl-roadmap', PoodlRoadmap);
+Vue.component('poodl-roadmap-item', PoodlRoadmapItem);
 Vue.component('poodl-carousel', PoodlCarousel);
 Vue.component('poodl-floating-buy', PoodlFloatingBuyButton);
 Vue.component('poodl-team-card', PoodlTeamCard);
