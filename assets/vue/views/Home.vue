@@ -60,7 +60,8 @@
                         <template v-slot:heading>Passed Security<br />Audit</template>
                     </poodl-heading>
                     <poodl-textblock>
-                        The POODL smart contract has been audited and approved by Solidity Finance. The contract is also running since over a year without any bugs or glitches.                    </poodl-textblock>
+                        The POODL smart contract has been audited and approved by Solidity Finance. The contract has been in place for over a year.
+                    </poodl-textblock>
                 </poodl-column>
             </poodl-usp>
         </poodl-section>
@@ -129,7 +130,7 @@
                     </poodl-heading>
                     <poodl-textblock>
                         This collection of unique NFTs are in full 3D and are fully compatible with the POODL augmented reality app. Use your NFTs in the real world. These NFTs will also be used in a revolutionary model in gaming where YOU earn from others using your models in a series of games over the coming months and years from POODL while still retaining ownership!<br /><br />
-                        Each model is unique and accessorized. Be one of the first to own NFTs that will help usher in NFT 2.0 - usable, pinnable, scalable, movable, placeable and viewable in the real world and soon Playable and providing a passive income stream for owners.
+                        Each model is unique and accessorized. Be one of the first to own NFTs that will help usher in NFT 2.0 - usable, pinnable, scalable, movable, placeable and viewable in the real world, soon playable in gaming, provinding a passive income stream for owners.
                     </poodl-textblock>
                 </poodl-column>
             </poodl-row>
