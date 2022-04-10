@@ -55,6 +55,11 @@
             <poodl-heading heading-level="h3">
                 <template v-slot:heading>Project Backlog</template>
             </poodl-heading>
+            <div class="roadmap-category-inner-backlog">
+                <div class="backlog-item" v-for="(item, index) in itemsBacklog" :key="index">
+                    {{ item }}
+                </div>
+            </div>
         </div>
     </div>
 </template>
@@ -146,7 +151,14 @@
                     progress: 0,
                     ongoing: false,
                 },
-            ]   
+            ],
+            itemsBacklog: [
+                'Bridging',
+                'Side Scroller Game',
+                'Geocaching',
+                'Additional Features for AR APP',
+                'Expanding Charity and Marketing'
+            ]
         }),
     }
 </script>

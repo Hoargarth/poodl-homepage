@@ -13,6 +13,19 @@
   }
 }
 
+.roadmap-category-inner-backlog {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+
+  .backlog-item {
+    border: 1px solid $gradient-start;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 1.6rem;
+  }
+}
+
 .poodl-roadmap-item {
   display: flex;
   width: 100%;
