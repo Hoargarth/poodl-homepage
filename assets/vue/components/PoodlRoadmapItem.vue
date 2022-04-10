@@ -9,9 +9,9 @@
             :color="colorGradient"
             emptyColor="rgba(255,255,255,0.2)"
             emptyColorFill="transparent"                      
-            :size="174"
-            :thickness="3"
-            emptyThickness="5"
+            :size="this.outerWidth"
+            :thickness="this.outerStroke"
+            :emptyThickness="this.outerEmptyStroke"
             lineMode="in 2"
             :legend="true"
             :legendValue="itemData.funds"
@@ -29,8 +29,8 @@
             :color="colorGradient"
             emptyColor="transparent"
             emptyColorFill="transparent"                      
-            :size="148"
-            :thickness="15"
+            :size="this.innerWidth"
+            :thickness="this.innerStroke"
             emptyThickness="0"
             lineMode="normal 0"
             :legend="true"
@@ -73,5 +73,35 @@
                 ]
             }
         }),
+
+        computed: {
+            outerWidth () {
+                return this.isMobile() ? 76 : 174;
+            },
+            outerStroke () {
+                return this.isMobile() ? 2 : 3;
+            },
+            outerEmptyStroke () {
+                return this.isMobile() ? 2 : 5;
+            },
+            innerWidth () {
+                return this.isMobile() ? 60 : 148;
+            },
+            innerStroke () {
+                return this.isMobile() ? 4 : 15;
+            }
+        },
+
+        methods: {
+            isMobile () {
+                const match = window.matchMedia("(max-width: 767px)");
+
+                if(match.matches) {
+                    return true;
+                }
+
+                return false;
+            },
+        },
     }
 </script>

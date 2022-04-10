@@ -5,25 +5,47 @@
 .roadmap-category-inner {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   column-gap: 50px;
+
+  @media all and (min-width: $breakpoint-md-up) {
+    flex-direction: row;
+  }
 }
 
 .poodl-roadmap-item {
   display: flex;
-  width: calc(50% - 25px);
+  width: 100%;
   margin-bottom: 50px;
+
+  @media all and (min-width: $breakpoint-lg-up) {
+    width: calc(50% - 25px);
+  }
 
   .progress-container {
     position: relative;
-    height: 174px;
+    height: 76px;
+    
+    @media all and (min-width: $breakpoint-md-up) {
+      height: 174px;
+    }
 
     .outer-progress {
       .progress-legend {
-        margin-top: 15px;
-        font-size: 1.4rem;
+        margin-top: -8px;
+        font-size: .8rem;
   
         span {
+          font-size: .8rem;
+        }
+
+        @media all and (min-width: $breakpoint-md-up) {
+          margin-top: 15px;
           font-size: 1.4rem;
+    
+          span {
+            font-size: 1.4rem;
+          }
         }
       }
 
@@ -42,20 +64,37 @@
 
       .progress-legend {
         margin-top: -35px;
-        font-size: 3.4rem;
+        font-size: 2.2rem;
   
         span {
+          font-size: 2.2rem;
+        }
+
+        @media all and (min-width: $breakpoint-md-up) {
           font-size: 3.4rem;
+  
+          span {
+            font-size: 3.4rem;
+          }
         }
       }
 
       &.ongoing {
         .progress-legend {
           margin: 0;
-          font-size: 9rem;
+
+          font-size: 6rem;
 
           span {
+            font-size: 6rem;
+          }
+
+          @media all and (min-width: $breakpoint-md-up) {
             font-size: 9rem;
+
+            span {
+              font-size: 9rem;
+            }
           }
         }
       }
