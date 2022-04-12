@@ -46,10 +46,10 @@
     .outer-progress {
       .progress-legend {
         margin-top: -8px;
-        font-size: .8rem;
+        font-size: .7rem;
   
         span {
-          font-size: .8rem;
+          font-size: .7rem;
         }
 
         @media all and (min-width: $breakpoint-md-up) {
@@ -95,11 +95,12 @@
       &.ongoing {
         .progress-legend {
           margin: 0;
-
-          font-size: 6rem;
+          font-size: 5rem;
+          font-family: $font-family-arial;
 
           span {
-            font-size: 6rem;
+            font-size: 5rem;
+            font-family: $font-family-arial;
           }
 
           @media all and (min-width: $breakpoint-md-up) {

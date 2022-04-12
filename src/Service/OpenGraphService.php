@@ -45,6 +45,10 @@ class OpenGraphService
     public function __construct() {}
 
     public function getOpenGraphData($route) {
-        return $this->openGraphData[$route];
+        if (array_key_exists($route, $this->openGraphData)) {
+            return $this->openGraphData[$route];
+        }
+
+        return $this->openGraphData['default'];
     }
 }

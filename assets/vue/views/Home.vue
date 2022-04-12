@@ -166,7 +166,7 @@
             </poodl-carousel>
 
             <div class="buttons-wrapper-row center">
-                <poodl-button :url="LINKS.poodlWebsite.nfts">About POODL NFTs</poodl-button>
+                <!-- <poodl-button :url="LINKS.poodlWebsite.nfts">About POODL NFTs</poodl-button> -->
                 <poodl-button :url="LINKS.poodlExternal.opensea">Full Collection</poodl-button>
             </div>
         </poodl-section>
