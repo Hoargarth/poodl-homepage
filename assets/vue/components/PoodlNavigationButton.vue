@@ -1,5 +1,5 @@
 <template>
-    <a :href="url" v-if="isExternal">
+    <a :href="url" v-if="isNormalLink">
         <slot />
     </a>
     <router-link :to="url" v-else>
@@ -19,8 +19,11 @@
         data: () => ({
         }),
         computed: {
-            isExternal () {
-                return this.url.includes('://');
+            isNormalLink () {
+                if (this.url.includes('://') || this.url.includes('/#')) {
+                    return true;
+                }
+                return false;
             }
         },
     }
