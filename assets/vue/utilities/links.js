@@ -39,7 +39,7 @@ const links = {
         'gecko' : 'https://www.coingecko.com/en/coins/poodl-token',
         'cmc' : 'https://coinmarketcap.com/currencies/poodle/',
         'dextools' : 'https://www.dextools.io/app/bsc/pair-explorer/0x12fc9d611b27e9e1b75a134f416ef071d7cbff12',
-        'pancake' : 'https://pancakeswap.finance/swap#/swap?outputCurrency=0x4a68c250486a116dc8d6a0c5b0677de07cc09c5d',
+        'pancake' : 'https://pancakeswap.finance/swap?outputCurrency=0x4a68c250486a116dc8d6a0c5b0677de07cc09c5d',
         'sushi' : 'https://app.sushi.com/swap?outputCurrency=0x4a68c250486a116dc8d6a0c5b0677de07cc09c5d',
         'swapzone' : 'https://swapzone.io/exchange/eth/poodl?amount=0.5&refId=faW1icfjno&partner=changenow',
         'inch' : 'https://app.1inch.io/#/56/swap/BNB/POODL',
