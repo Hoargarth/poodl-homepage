@@ -35,7 +35,7 @@
                 </poodl-column>
                 <poodl-column :mobile="12" :tablet="6" :desktop="4" vAlign="center" hAlign="center">
                     <a href="https://app.1inch.io/#/56/swap/BNB/POODL" target="_blank">
-                        <poodl-image src="/exchanges/1inch.svg" alt="1inch" maxWidth="200px" />
+                        <poodl-image src="/exchanges/1inch.png" alt="1inch" maxWidth="200px" />
                     </a>
                 </poodl-column>
                 <poodl-column :mobile="12" :tablet="6" :desktop="4" vAlign="center" hAlign="center">
