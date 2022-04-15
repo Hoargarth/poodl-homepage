@@ -31,6 +31,8 @@ const en = {
         'hotbit' : 'HOTBIT',
         'whitebit' : 'Whitebit',
         'dna' : 'Demons & Angels',
+        'seek' : 'SEEK Token',
+        'dnky' : 'Astro Donkey',
     },
     'component' : {
         'poodllFloatingBuyButton' : {

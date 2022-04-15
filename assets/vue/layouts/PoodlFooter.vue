@@ -25,6 +25,8 @@
             <poodl-column :mobile="12" :tablet="4" :desktop="3" additionalClasses="footer-links">
                 <h3>{{ $t("footer.partners") }}</h3>
                 <a :href="LINKS.poodlPartners.dna">{{ $t("footer.dna") }}</a>
+                <a :href="LINKS.poodlPartners.seek">{{ $t("footer.seek") }}</a>
+                <a :href="LINKS.poodlPartners.dnky">{{ $t("footer.dnky") }}</a>
             </poodl-column>
         </poodl-row>
         <poodl-row>
