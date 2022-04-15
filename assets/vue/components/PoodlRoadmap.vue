@@ -75,7 +75,7 @@
                 {
                     title: '3D NFT Collection "AR Pets"',
                     timeframe: 'Date: Ongoing',
-                    content: 'Currently gathering funds in order to set up the first bridge. At the same time, narrowing down the first network to bridge to.<br><br>Next stage: Setup',
+                    content: 'Not an ordinary NFT, but a fully rigged 3D NFT which can be used together with our Augmented Reality App, in order to see them through your phones camera.',
                     funds: 100,
                     progress: 100,
                     ongoing: true,
@@ -129,7 +129,7 @@
                 {
                     title: 'Marketing',
                     timeframe: 'Date: Ongoing',
-                    content: 'Currently gathering funds in order to set up the first bridge. At the same time, narrowing down the first network to bridge to.<br><br>Next stage: Setup',
+                    content: 'Current marketing target: Package of articles across multiple crypto platforms.',
                     funds: 100,
                     progress: 100,
                     ongoing: true,
