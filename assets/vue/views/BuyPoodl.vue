@@ -86,6 +86,53 @@
                 </poodl-column>
             </poodl-row>
         </poodl-section>
+
+        <poodl-section>
+            <!-- Instant Exchanges -->
+            <poodl-row>
+                <poodl-column :mobile="12" :tablet="12" :desktop="12">
+                    <poodl-heading heading-level="h2">
+                        <template v-slot:heading>{{ $t("views.buy.instantTitle") }}</template>
+                    </poodl-heading>
+                    <poodl-textblock>
+                        {{ $t("views.buy.instantTextblock") }}
+                    </poodl-textblock>
+                </poodl-column>
+            </poodl-row>
+            <poodl-row>
+                <poodl-column :mobile="12" :tablet="6" :desktop="4" vAlign="center" hAlign="center">
+                    <a href="https://swapzone.io/exchange/bnbmainnet/poodl?amount=0.09&refId=xG-LtbHBya&partner=changenow_fix" target="_blank">
+                        <poodl-image src="/exchanges/swapzone.png" alt="LBank" maxWidth="200px" />
+                    </a>
+                </poodl-column>
+                <poodl-column :mobile="12" :tablet="6" :desktop="4" vAlign="center" hAlign="center">
+                    <a href="https://stealthex.io/?from=eth&to=poodl&ref=4dzoq3b65nz" target="_blank">
+                        <poodl-image src="/exchanges/stealthex.png" alt="LBank" maxWidth="200px" />
+                    </a>
+                </poodl-column>
+            </poodl-row>
+        </poodl-section>
+
+        <poodl-section>
+            <!-- FIAT Onramp -->
+            <poodl-row>
+                <poodl-column :mobile="12" :tablet="12" :desktop="12">
+                    <poodl-heading heading-level="h2">
+                        <template v-slot:heading>{{ $t("views.buy.fiatTitle") }}</template>
+                    </poodl-heading>
+                    <poodl-textblock>
+                        {{ $t("views.buy.fiatTextblock") }}
+                    </poodl-textblock>
+                </poodl-column>
+            </poodl-row>
+            <poodl-row>
+                <poodl-column :mobile="12" :tablet="6" :desktop="4" vAlign="center" hAlign="center">
+                    <a href="https://guardarian.com/" target="_blank">
+                        <poodl-image src="/exchanges/guardarian.png" alt="LBank" maxWidth="200px" />
+                    </a>
+                </poodl-column>
+            </poodl-row>
+        </poodl-section>
     </div>
 </template>
 

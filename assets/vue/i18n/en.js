@@ -32,7 +32,7 @@ const en = {
         'whitebit' : 'Whitebit',
         'dna' : 'Demons & Angels',
         'seek' : 'SEEK Token',
-        'dnky' : 'Astro Donkey',
+        'dnky' : 'AstroDonkey Ecosystem',
     },
     'component' : {
         'poodllFloatingBuyButton' : {
@@ -56,6 +56,10 @@ const en = {
             'dexTextblock' : 'Since DEX support our tokenomics, you should consider buying $POODL using one of those methods. For this you require your own wallet.',
             'cexTitle' : 'Centralized Exchanges',
             'cexTextblock' : 'Easier for beginners to buy $POODL, but they don\'t support our tokenomics.',
+            'instantTitle' : 'Instant Exchanges',
+            'instantTextblock' : 'Swap nearly any other crypto like Bitcoin, Ethereum or Doge for $POODL',
+            'fiatTitle' : 'FIAT Onramp',
+            'fiatTextblock' : 'You want a more direct way to buy $POODL without having another crypto currency as intermediate step? Buy with Euro, Pound and many more. ',
         },
         'team' : {
             'viewTitle' : '$POODL Team',

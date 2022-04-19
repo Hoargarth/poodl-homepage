@@ -51,8 +51,8 @@ const links = {
     },
     'poodlPartners' : {
         'dna' : 'https://www.demonandangel.com/',
-        'seek' : 'https://seektoken.net/',
-        'dnky' : 'https://astrodonkey.com/',
+        'seek' : 'https://t.me/SEEK_Token',
+        'dnky' : 'https://t.me/astrodonkeycrypto',
     },
 };
 
