@@ -24,7 +24,7 @@ const links = {
         'nfts' : '/nfts',
     },
     'poodlSocial' : {
-        'poodlcast' : 'https://www.youtube.com/watch?v=p5sWDzKa8X8&list=PL7qEEtxbrLBJZjQi9e1h30whL7iPaV17b',
+        'poodlcast' : 'https://www.youtube.com/watch?v=WwL4F5VOjkk&list=PL7qEEtxbrLBJZjQi9e1h30whL7iPaV17b&index=1',
         'academy' : 'https://t.me/poodlacademy',
         'tiktok' : 'https://www.tiktok.com/@poodltoken',
         'telegram' : 'https://t.me/POODL',

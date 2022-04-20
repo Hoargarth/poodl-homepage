@@ -30,6 +30,7 @@
                     comment="20+yrs experience of delivering high end tech projects from startup to corporate. Sales/marketing expert."
                     :contacts="[
                         {type: 'twitter', handle: 'poodletoken'},
+                        {type: 'twitter', handle: 'crypt0diamond'},
                         {type: 'telegram', handle: 'POODLH00DLER'},
                 ]" />
                 <poodl-team-card name="An Oversized Moose With Socks"
