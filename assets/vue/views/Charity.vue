@@ -42,10 +42,10 @@
                         <br/>
                         <br/>
                         <h3>Donation Receipts</h3>
-                        <poodl-image src="/charity/donation1.jpg" alt="donation receipt" maxWidth="200px" />
-                        <poodl-image src="/charity/donation2.jpg" alt="donation receipt" maxWidth="200px" />
-                        <poodl-image src="/charity/donation3.jpg" alt="donation receipt" maxWidth="200px" />
-                        <poodl-image src="/charity/donation4.jpg" alt="donation receipt" maxWidth="200px" />
+                        <poodl-image src="/charity/donation1.jpg" alt="donation receipt" maxWidth="200px" mobileMaxWidth="49%" />
+                        <poodl-image src="/charity/donation2.jpg" alt="donation receipt" maxWidth="200px" mobileMaxWidth="49%" />
+                        <poodl-image src="/charity/donation3.jpg" alt="donation receipt" maxWidth="200px" mobileMaxWidth="49%" />
+                        <poodl-image src="/charity/donation4.jpg" alt="donation receipt" maxWidth="200px" mobileMaxWidth="49%" />
                     </poodl-textblock>
                 </poodl-column>
             </poodl-row>
