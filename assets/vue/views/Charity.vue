@@ -21,7 +21,7 @@
         <!-- Canines Partner -->
         <poodl-section>
             <poodl-row>
-                <poodl-column :mobile="12" :tablet="10" :desktop="9">
+                <poodl-column :mobile="12" :tablet="12" :desktop="12">
                     <poodl-heading heading-level="h1">
                         <template v-slot:heading>{{ $t("views.charity.canines") }}</template>
                     </poodl-heading>
@@ -37,6 +37,15 @@
                             allowfullscreen
                             class="youtube">
                         </iframe>
+                    </poodl-textblock>
+                    <poodl-textblock>
+                        <br/>
+                        <br/>
+                        <h3>Donation Receipts</h3>
+                        <poodl-image src="/charity/donation1.jpg" alt="donation receipt" maxWidth="200px" />
+                        <poodl-image src="/charity/donation2.jpg" alt="donation receipt" maxWidth="200px" />
+                        <poodl-image src="/charity/donation3.jpg" alt="donation receipt" maxWidth="200px" />
+                        <poodl-image src="/charity/donation4.jpg" alt="donation receipt" maxWidth="200px" />
                     </poodl-textblock>
                 </poodl-column>
             </poodl-row>
