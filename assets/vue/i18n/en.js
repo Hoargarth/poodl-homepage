@@ -90,7 +90,7 @@ const en = {
             'wallet' : 'Charity Wallet Address',
             'canines' : 'Canines for Disabled Kids',
             'caninesText' : 'is Poodl\'s first and primary charity. Their mission is increasing independence for children with disabilities and their families by promoting service dog partnerships, understanding and awareness throughout the community.',
-            'poodlcast' : 'Listen and watch to our PoodlCast episode, featuring Exec. Director Kristin Hartness from Canines for Disabled Kdis:',
+            'poodlcast' : 'Listen and watch to our PoodlCast episode, featuring Exec. Director Kristin Hartness from Canines for Disabled Kids:',
             'community' : 'Independent Community Efforts',
             'communityText' : 'Poodl\'s community members make a difference on their own! Some of our community members will occasionally seek out small charities and help them out.',
         },
