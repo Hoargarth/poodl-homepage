@@ -86,7 +86,7 @@ const en = {
             'viewTitle' : '$POODL Charity',
             'viewSubTitle' : 'because Charity is built in!',
             'titleTextblock' : 'Poodl is committed to helping those in need. The community as a whole, wants to help any cause that can help dogs and humans have better lives. This section of our site will grow over time, so please come back often to check progress!',
-            'tokenomic' : 'Poodl\'s tokenomics includes charity as part of the token\'s core functionality. With every transaction made with Poodl, 0.33% goes directly to charity. But we are also happy to accept any donation to the charity wallet and delegate it to our charity partners!',
+            'tokenomic' : 'Poodl\'s tokenomics includes charity as part of the token\'s core functionality. With every transaction made with Poodl, 0.5% goes directly to charity. But we are also happy to accept any donation to the charity wallet and delegate it to our charity partners!',
             'wallet' : 'Charity Wallet Address',
             'canines' : 'Canines for Disabled Kids',
             'caninesText' : 'is Poodl\'s first and primary charity. Their mission is increasing independence for children with disabilities and their families by promoting service dog partnerships, understanding and awareness throughout the community.',

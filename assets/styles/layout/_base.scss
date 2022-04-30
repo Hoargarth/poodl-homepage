@@ -14,6 +14,12 @@ body {
 
 iframe {
     max-width: 100%;
+
+    &.youtube {
+        @media screen and (max-width: $breakpoint-md-down) {
+            height: 190px;
+        };
+    }
 }
 
 .background-wall {

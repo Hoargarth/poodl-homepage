@@ -34,7 +34,8 @@
                             src="https://www.youtube-nocookie.com/embed/NxKdd7_x_CQ?start=181"
                             title="YouTube video player" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen>
+                            allowfullscreen
+                            class="youtube">
                         </iframe>
                     </poodl-textblock>
                 </poodl-column>
