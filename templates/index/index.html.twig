@@ -6,6 +6,11 @@
 {% block og_image %}{{ openGraphData.image }}{% endblock %}
 {% block og_type %}{{ openGraphData.type }}{% endblock %}
 
+{% block twitter_title %}{{ openGraphData.title }}{% endblock %}
+{% block twitter_description %}{{ openGraphData.description }}{% endblock %}
+{% block twitter_image %}{{ openGraphData.image }}{% endblock %}
+{% block twitter_card %}summary{% endblock %}
+
 {% block body %}
 <div id="app">
     <router-view></router-view>

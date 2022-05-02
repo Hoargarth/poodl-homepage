@@ -11,6 +11,12 @@
         <meta property="og:image" content="{{ app.request.getSchemeAndHttpHost() }}{% block og_image %}https://ogp.me/logo.png{% endblock %}"/>
         <meta property="og:type" content="{% block og_type %}website{% endblock %}"/>
 
+        <!-- Twitter Meta -->
+        <meta property="twitter:title" content="{% block twitter_title %}Open Graph Tags – praktische Tipps für Deine Website{% endblock %}"/> 
+        <meta property="twitter:description" content="{% block twitter_description %}Open Graph description{% endblock %}"/>
+        <meta property="twitter:image" content="{{ app.request.getSchemeAndHttpHost() }}{% block twitter_image %}https://ogp.me/logo.png{% endblock %}"/>
+        <meta property="twitter:card" content="{% block twitter_card %}summary{% endblock %}"/>
+
         <!-- Improves responsive -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
