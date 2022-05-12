@@ -1,8 +1,8 @@
 <template>
-    <a :href="url" v-if="isNormalLink">
+    <a :href="url" v-if="isNormalLink" @click="$emit('close-nav')">
         <slot />
     </a>
-    <router-link :to="url" v-else>
+    <router-link :to="url" v-else @click.native="$emit('close-nav')">
         <slot/>
     </router-link>
 </template>

@@ -26,6 +26,7 @@
             </poodl-row>
             <poodl-row gap="20px">
                 <poodl-team-card name="Sasha"
+                    image="/team/sasha.jpg"
                     position="Admin / Marketing"
                     comment="20+yrs experience of delivering high end tech projects from startup to corporate. Sales/marketing expert."
                     :contacts="[
@@ -48,6 +49,7 @@
                         {type: 'twitter', handle: 'josiahway'},
                 ]" />
                 <poodl-team-card name="SpaceDog"
+                    image="/team/spacedog.jpg"
                     position="Developer"
                     comment="Multi lingual, Developer and API master. Gamer/father/husband. Loves tech and astronomy."
                     :contacts="[
@@ -100,12 +102,6 @@
                 </poodl-column>
             </poodl-row>
             <poodl-row gap="20px">
-                <poodl-team-card name="Karin"
-                    position="Moderator"
-                    comment="Mamma Karin with the magic eraser that helps keep our (room? Community?) clean. Need a virtual hug? She's there for you!"
-                    :contacts="[
-                        {type: 'telegram', handle: 'mammakarin'},
-                ]" />
                 <poodl-team-card name="Trent"
                     position="Moderator"
                     comment="Bringing the next generation to POODL. Crypto savvy and always around to help handle questions."
@@ -123,6 +119,13 @@
                     comment="Multilingual and king of Reddit. Handles TG rooms and FUD with style."
                     :contacts="[
                         {type: 'telegram', handle: 'mightygoodyous'},
+                ]" />
+                <poodl-team-card name="Jos D"
+                    image="/team/josd.png"
+                    position="Moderator"
+                    comment="Active in cryptoverse since 2017 and member of the poodlfam since 2021. Minted the first 3D NFT of Poodl and always willing to help anyone on the telegram."
+                    :contacts="[
+                        {type: 'twitter', handle: 'Plan_P_oodl'},
                 ]" />
             </poodl-row>
         </poodl-section>

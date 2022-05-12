@@ -18,13 +18,14 @@
         <div class="navigation-inner">
             <img class="logo" src="@images/icons/poodl-head.png" alt="$POOL Token">
             <div class="nav-wrapper">
-                <poodl-navigation-button :url="LINKS.poodlWebsite.home">
+                <poodl-navigation-button :url="LINKS.poodlWebsite.home" @close-nav="navClick">
                     <strong>Poodl</strong>Token<sup>TM</sup>
                 </poodl-navigation-button>
                 <poodl-navigation-button
                     v-for="(item, index) in homeNav"
                     :key="'homenav-' + index"
-                    :url="item.url">
+                    :url="item.url"
+                    @close-nav="navClick" >
                     {{item.text}}
                 </poodl-navigation-button>
 
@@ -33,7 +34,8 @@
                 <poodl-navigation-button
                     v-for="(item, index) in globalNav"
                     :key="'globalnav-' + index"
-                    :url="item.url">
+                    :url="item.url"
+                    @close-nav="navClick" >
                     {{item.text}}
                 </poodl-navigation-button>
             </div>
@@ -114,6 +116,15 @@
             }
         },
         methods: {
+            isMobile () {
+                const match = window.matchMedia("(max-width: 767px)");
+
+                if(match.matches) {
+                    return true;
+                }
+
+                return false;
+            },
             setActive () {
                 const navLinks = document.querySelectorAll(".navigation-container a");
                 const currentPath = location.href;
@@ -138,7 +149,13 @@
             },
             toggleNavigation () {
                 this.isDisabled = !this.isDisabled;
-            }
+            },
+            navClick () {
+                window.scrollTo(0,0);
+                if (this.isMobile()) {
+                    this.isDisabled = true;
+                }
+            },
         },
         mounted () {
             this.$nextTick(() => {
