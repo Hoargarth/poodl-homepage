@@ -61,6 +61,19 @@
                 </div>
             </div>
         </div>
+
+        <!-- Done Items -->
+        <div class="roadmap-category backlog">
+            <poodl-heading heading-level="h3">
+                <template v-slot:heading>Done and Released</template>
+            </poodl-heading>
+            <div class="roadmap-category-inner-backlog">
+                <div class="backlog-item" v-for="(item, index) in itemsDone" :key="index">
+                    <a v-if="item.link" :href="item.link" :title="item.title" target="_blank">{{ item.title }}</a>
+                    <span v-else>{{ item.title }}</span>
+                </div>
+            </div>
+        </div>
     </div>
 </template>
 
@@ -91,9 +104,9 @@
                 {
                     title: 'Generative 2D NFT Collection',
                     timeframe: 'Date: June',
-                    content: '2D generative collection of about 1000 NFTs,to get more eyes on POODL<br><br>Leads to:<br>- Funds for the project (Marketing, Development, LP...)<br>- Some nice Merchandise',
+                    content: '2D generative collection of about 1000 NFTs with real utility,to get more eyes on POODL<br><br>Leads to:<br>- Funds for the project (Marketing, Development, LP...)<br>- Some nice Merchandise',
                     funds: 100,
-                    progress: 10,
+                    progress: 90,
                     ongoing: false,
                 },
             ],
@@ -112,14 +125,6 @@
                     title: 'POODL Merch Store',
                     timeframe: 'Date: April',
                     content: 'We are currently setting up a store for merchandise. You ever wanted you NFT printed on a shirt, hoodie or mug? You will get it.<br><br>Leads to:<br>- Passive income for our NFT holders<br>- Merchandise to show your support for POODL',
-                    funds: 100,
-                    progress: 90,
-                    ongoing: false,
-                },
-                {
-                    title: 'Website Redesign',
-                    timeframe: 'Date: April',
-                    content: 'Launch of our redesigned website, for a better overview,modern look and foundation for future features.',
                     funds: 100,
                     progress: 90,
                     ongoing: false,
@@ -153,11 +158,40 @@
                 },
             ],
             itemsBacklog: [
-                'Bridging',
                 'Side Scroller Game',
                 'Geocaching',
                 'Additional Features for AR APP',
                 'Expanding Charity and Marketing'
+            ],
+            itemsDone: [
+                {
+                    title: '3D NFTs "$POODL AR Pets"',
+                    link: 'https://opensea.io/collection/poodl-ar-pets',
+                },
+                {
+                    title: 'Website Relaunch',
+                    link: 'https://www.poodltoken.com/',
+                },
+                {
+                    title: 'AR NFT App (Android)',
+                    link: 'https://www.poodltoken.com/games',
+                },
+                {
+                    title: 'Launch of Poodl Academy',
+                    link: 'https://t.me/poodlacademy',
+                },
+                {
+                    title: 'Launch of PoodlCast',
+                    link: 'https://www.youtube.com/playlist?list=PL7qEEtxbrLBJZjQi9e1h30whL7iPaV17b',
+                },
+                {
+                    title: 'Charity Partnership with C94K',
+                    link: 'https://caninesforkids.org/',
+                },
+                {
+                    title: 'Listing on CEX & DEX',
+                    link: 'https://www.poodltoken.com/buy',
+                },
             ]
         }),
     }

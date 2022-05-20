@@ -2,6 +2,12 @@
   width: 100%;
 }
 
+.roadmap-category {
+  &.backlog {
+    margin-top: 50px;
+  }
+}
+
 .roadmap-category-inner {
   display: flex;
   flex-wrap: wrap;
