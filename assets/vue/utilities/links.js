@@ -48,6 +48,7 @@ const links = {
         'hotbit' : 'https://www.hotbit.io/exchange?symbol=POODL_USDT&__cf_chl_tk=jh1dsBkOarnIDjqy1riKDgBaQm5JLPBmooYYbinkIs8-1648756886-0-gaNycGzNCBE',
         'whitebit' : 'https://whitebit.com/trade/POODL2-DECL',
         'opensea' : 'https://opensea.io/collection/poodl-ar-pets',
+        'merchandise' : 'https://store.poodltoken.com/',
     },
     'poodlPartners' : {
         'dna' : 'https://www.demonandangel.com/',

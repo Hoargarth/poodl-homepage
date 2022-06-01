@@ -46,7 +46,6 @@
                     <poodl-textblock>
                         <h2>{{ $t("views.whitepaper.tokenomic") }}</h2>
                         <p v-html="$t('views.whitepaper.tokenomicTextblock')"></p>
-                        <p>flowchart here</p>
                     </poodl-textblock>
                 </poodl-column>  
             </poodl-row>

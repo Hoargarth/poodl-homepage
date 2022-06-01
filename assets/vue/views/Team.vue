@@ -34,13 +34,6 @@
                         {type: 'twitter', handle: 'crypt0diamond'},
                         {type: 'telegram', handle: 'POODLH00DLER'},
                 ]" />
-                <poodl-team-card name="An Oversized Moose With Socks"
-                    position="Lead Developer"
-                    comment="20yrs+ development experience as a software developer in the web and computer graphics industry."
-                    :contacts="[
-                        {type: 'twitter', handle: 'undacappn'},
-                        {type: 'telegram', handle: 'AnOversizedMooseWithSocks'},
-                ]" />
                 <poodl-team-card name="Joe"
                     position="Admin / PoodlCast Host"
                     comment="Joe has been a stalwart of POODL and hosts our weekly show poodlcast every week. A great guy, always on point."

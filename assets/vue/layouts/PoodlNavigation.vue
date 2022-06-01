@@ -112,6 +112,10 @@
                         text: this.$t("navigation.academy"),
                         url: this.LINKS.poodlSocial.academy,
                     },
+                    {
+                        text: this.$t("navigation.merchandise"),
+                        url: this.LINKS.poodlExternal.merchandise,
+                    },
                 ],
             }
         },
