@@ -106,11 +106,13 @@
       max-width: 896px;
       margin: 0 auto;
       padding: 0 $base-padding $base-padding;
+      min-height: 70vh;
     }
   }
 
   #swapzone,
-  #guardarian {
+  #guardarian,
+  #everswap {
     display: none;
 
     &.active {
@@ -129,6 +131,18 @@
       margin: 0 auto;
       box-sizing: border-box;
     }
+  }
+
+  #everswap {
+    iframe {
+      width: 100%;
+      max-width: 760px;
+      height: 600px;
+    }
+  }
+
+  #swapzonePartnersWidget {
+    min-height: 181px;
   }
 
   .buy-note {

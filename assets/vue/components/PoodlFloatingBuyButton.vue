@@ -11,6 +11,9 @@
                 <p>{{ $t("component.poodllFloatingBuyButton.modalInfo") }}</p>
                 <div class="buttons-wrapper-row" style="justify-content: center; margin: 35px 0;">
                     <div class="base-button">
+                        <button class="button" :class="everswap ? 'active' : ''" @click="toggleEverswap"><span class="button-line"></span>{{ $t("component.poodllFloatingBuyButton.toggleEverswap") }}</button>
+                    </div>
+                    <div class="base-button">
                         <button class="button" :class="swapzone ? 'active' : ''" @click="toggleSwapzone"><span class="button-line"></span>{{ $t("component.poodllFloatingBuyButton.toggleCrypto") }}</button>
                     </div>
                     <div class="base-button">
@@ -19,6 +22,9 @@
                 </div>
                 <div class="buy-poodl-swap">
                     <p>{{ $t("component.poodllFloatingBuyButton.toggleInfo") }}</p>
+                    <div id="everswap" :class="everswap ? 'active' : ''">
+                        <iframe src="https://app.everrise.com/everswap/swap#token=0x4a68c250486a116dc8d6a0c5b0677de07cc09c5d&amp;chainId=56" frameborder="0" style="width: 100%;"></iframe>
+                    </div>
                     <div id="swapzone" :class="swapzone ? 'active' : ''">
                         <div id="swapzonePartnersWidget" data-hidelogo="true" data-hideheader="true" data-from="eth" data-to="poodl" data-size="full" data-refid="faW1icfjno" ></div>
                     </div>
@@ -37,7 +43,8 @@
         name: 'PoodlFloatingBuyButton',
         data: () => ({
             modalActive: false,
-            swapzone: true,
+            everswap: true,
+            swapzone: false,
             guardarian: false,
         }),
         methods: {
@@ -45,13 +52,20 @@
                 this.modalActive = !this.modalActive;
             },
             toggleSwapzone () {
+                this.everswap = false;
                 this.guardarian = false;
                 this.swapzone = true;
             },
             toggleGuardarian () {
+                this.everswap = false;
                 this.swapzone = false;
                 this.guardarian = true;
             },
+            toggleEverswap () {
+                this.swapzone = false;
+                this.guardarian = false;
+                this.everswap = true;
+            }
         },
         mounted () {
             let recaptchaScript = document.createElement('script')

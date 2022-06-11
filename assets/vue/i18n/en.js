@@ -40,9 +40,10 @@ const en = {
             'buyButton' : 'Buy POODL',
             'modalTitle' : 'Swap / Buy $POODL now',
             'modalInfo' : 'You can now buy POODL with credit/debit card directly OR swap virtually any crypto!',
-            'toggleCrypto' : 'Swap with Crypto',
+            'toggleEverswap': 'Swap (EverSwap)',
+            'toggleCrypto' : 'Swap (Swapzone)',
             'toggleFiat' : 'Buy with FIAT',
-            'toggleInfo' : 'Click "buy with FIAT" above to buy with FIAT currency such as US Dollars, Euros or Pounds etc. Or click "swap with crypto" to swap over 400 crypto currencies such as Bitcoin, Ethereum, BNB etc for POODL!',
+            'toggleInfo' : 'Click "buy with FIAT" above to buy with FIAT currency such as US Dollars, Euros or Pounds etc. Or click one of the "Swap" buttons, to swap directly from other crypto currencies such as Bitcoin, Ethereum, BNB etc for POODL!',
             'secInfo' : '* Due to SEC regulations, the FIAT option is currently not available inside the United States. Work is being done to bring this functionality to our US investors.',
         },
         'poodlRoadmap' : {
