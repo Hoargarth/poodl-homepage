@@ -23,7 +23,7 @@
                 <div class="buy-poodl-swap">
                     <p>{{ $t("component.poodllFloatingBuyButton.toggleInfo") }}</p>
                     <div id="everswap" :class="everswap ? 'active' : ''">
-                        <iframe src="https://app.everrise.com/everswap/swap#token=0x4a68c250486a116dc8d6a0c5b0677de07cc09c5d&amp;chainId=56" frameborder="0" style="width: 100%;"></iframe>
+                        <iframe src="https://app.everrise.com/everswap/swap#token=0x4a68c250486a116dc8d6a0c5b0677de07cc09c5d&amp;chainId=56" frameborder="0"></iframe>
                     </div>
                     <div id="swapzone" :class="swapzone ? 'active' : ''">
                         <div id="swapzonePartnersWidget" data-hidelogo="true" data-hideheader="true" data-from="eth" data-to="poodl" data-size="full" data-refid="faW1icfjno" ></div>

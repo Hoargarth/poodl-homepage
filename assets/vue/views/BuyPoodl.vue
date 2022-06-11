@@ -29,6 +29,11 @@
             </poodl-row>
             <poodl-row>
                 <poodl-column :mobile="12" :tablet="6" :desktop="4" vAlign="center" hAlign="center">
+                    <a href="https://app.everrise.com/everswap/swap#token=0x4a68c250486a116dc8d6a0c5b0677de07cc09c5d&amp;chainId=56" target="_blank">
+                        <poodl-image src="/exchanges/everswap.png" alt="EverSwap" maxWidth="200px" />
+                    </a>
+                </poodl-column>
+                <poodl-column :mobile="12" :tablet="6" :desktop="4" vAlign="center" hAlign="center">
                     <a href="https://pancakeswap.finance/swap#/swap?outputCurrency=0x4a68c250486a116dc8d6a0c5b0677de07cc09c5d" target="_blank">
                         <poodl-image src="/exchanges/pancake.png" alt="PancakeSwap" maxWidth="200px" />
                     </a>

@@ -44,38 +44,6 @@
             </poodl-row>
         </poodl-section>
 
-        <!-- Influencers -->
-        <poodl-section>
-            <poodl-row>
-                <poodl-column :mobile="12" :tablet="12" :desktop="12">
-                    <poodl-heading heading-level="h2">
-                        <template v-slot:heading>{{ $t("views.team.influencersTitle") }}</template>
-                    </poodl-heading>
-                </poodl-column>
-            </poodl-row>
-            <poodl-row gap="20px">
-                <poodl-team-card name="Elle"
-                    position="Influencer / Moderator"
-                    comment="Elle has been with the team since June 2021, and currently in charge of the Poodlympics. She is a guardian of our brand. She's the pitbull of $Poodl."
-                    :contacts="[
-                        {type: 'twitter', handle: 'B055Lady_Elle'},
-                        {type: 'telegram', handle: 'HelleOnEarth'},
-                ]" />
-                <poodl-team-card name="Crypto Messiah"
-                    position="Influencer"
-                    comment="Crypto legend and prophet of smallcaps."
-                    :contacts="[
-                        {type: 'twitter', handle: '1goonrich'},
-                ]" />
-                <poodl-team-card name="Travladd Crypto"
-                    position="Influencer"
-                    comment="Crypto enthusiast and Token reviewer."
-                    :contacts="[
-                        {type: 'twitter', handle: 'OfficialTravlad'},
-                ]" />
-            </poodl-row>
-        </poodl-section>
-
         <!-- Moderators -->
         <poodl-section>
             <poodl-row>
@@ -86,6 +54,13 @@
                 </poodl-column>
             </poodl-row>
             <poodl-row gap="20px">
+                <poodl-team-card name="Elle"
+                    position="Moderator / Influencer"
+                    comment="Elle has been with the team since June 2021, and currently in charge of the Poodlympics. She is a guardian of our brand. She's the pitbull of $Poodl."
+                    :contacts="[
+                        {type: 'twitter', handle: 'B055Lady_Elle'},
+                        {type: 'telegram', handle: 'HelleOnEarth'},
+                ]" />
                 <poodl-team-card name="Trent"
                     position="Moderator"
                     comment="Bringing the next generation to POODL. Crypto savvy and always around to help handle questions."
